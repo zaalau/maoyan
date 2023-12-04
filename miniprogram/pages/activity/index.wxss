@@ -1,0 +1,151 @@
+/* pages/activity/index.wxss */
+.activityContainer {
+  width: 750rpx;
+}
+.activityTop {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 93rpx;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  color: #ffffff;
+  border-bottom: 3rpx solid #ffffff5e;
+}
+.choosedBtn {
+  background-color: #9f0101;
+  width: 135rpx;
+  height: 48rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rpx;
+  font-size: 27rpx;
+  font-weight: bold;
+  position: relative;
+}
+.unchooseBtn {
+  background-color: #d26a0e;
+  width: 135rpx;
+  height: 48rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rpx;
+  font-size: 27rpx;
+  font-weight: bold;
+  position: relative;
+}
+.chooseline {
+  width: 90rpx;
+  height: 7rpx;
+  border-radius: 50rpx;
+  background-color: #9f0101;
+  position: absolute;
+  bottom: -15rpx;
+}
+.fabuhuiContainer {
+  width: 750rpx;
+}
+.fabuhuiItem {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 576rpx;
+  position: relative;
+}
+.fabuhuiTextright {
+  position: absolute;
+  width: 288rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+  top: 130rpx;
+  right: 42rpx;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffffb9;
+  font-size: 15rpx;
+  font-family: 'yier';
+  font-weight: 100;
+  padding: 16rpx 25rpx;
+  box-sizing: border-box;
+  align-items: center;
+}
+.fabuhuiTextleft {
+  position: absolute;
+  width: 288rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+  top: 130rpx;
+  left: 42rpx;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffffb9;
+  font-size: 15rpx;
+  font-family: 'yier';
+  font-weight: 100;
+  padding: 16rpx 25rpx;
+  box-sizing: border-box;
+  align-items: center;
+}
+.itemTime {
+  margin: 0 0 8rpx 0;
+}
+.fabuhuiBigPicright {
+  position: absolute;
+  width: 365rpx;
+  height: 248rpx;
+  top: 50rpx;
+}
+.fabuhuiBigPicleft {
+  position: absolute;
+  width: 365rpx;
+  height: 248rpx;
+  top: 55rpx;
+  right: 0;
+}
+.fabuhuiLeftPicright {
+  position: absolute;
+  width: 250rpx;
+  height: 190rpx;
+  top: 312rpx;
+  left: 18rpx;
+  z-index: 1;
+}
+.fabuhuiLeftPicleft {
+  position: absolute;
+  width: 250rpx;
+  height: 190rpx;
+  top: 245rpx;
+  left: 25rpx;
+  z-index: 3;
+}
+.fabuhuiMiddlePicright {
+  position: absolute;
+  z-index: 2;
+  width: 250rpx;
+  height: 190rpx;
+  top: 344rpx;
+  left: 248rpx;
+}
+.fabuhuiMiddlePicleft {
+  position: absolute;
+  z-index: 2;
+  width: 250rpx;
+  height: 190rpx;
+  top: 350rpx;
+  left: 240rpx;
+}
+.fabuhuiRightPicright {
+  position: absolute;
+  z-index: 3;
+  width: 250rpx;
+  height: 190rpx;
+  top: 238rpx;
+  right: 40rpx;
+}
+.fabuhuiRightPicleft {
+  position: absolute;
+  z-index: 2;
+  width: 250rpx;
+  height: 185rpx;
+  top: 320rpx;
+  right: 45rpx;
+}

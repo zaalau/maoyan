@@ -1,0 +1,32 @@
+<!--pages/activity/index.wxml-->
+<view class="activityContainer" style="min-height: {{activityHeight}}px;">
+  <view class="activityTop" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/huodongtopbg.jpg?sign=e6ea32961aebaad6009c6de8055fcec6&t=1701607678');">
+    <view class="{{whosbeenchoosed==='fabuhui'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='fabuhui'>发布会
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='fabuhui'}}"></view>
+    </view>
+    <view class="{{whosbeenchoosed==='kaiye'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='kaiye'>开业庆典
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='kaiye'}}"></view>
+    </view>
+    <view class="{{whosbeenchoosed==='wanhui'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='wanhui'>晚 会
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='wanhui'}}"></view>
+    </view>
+    <view class="{{whosbeenchoosed==='yanlian'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='yanlian'>演 练
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='yanlian'}}"></view>
+    </view>
+  </view>
+  <view class="fabuhuiContainer" wx:if="{{whosbeenchoosed==='fabuhui'}}">
+    <view wx:for="{{fabuhuiData}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+      <view class="fabuhuiItem" style="background-image: url({{item.bg}});">
+        <view class="{{item.type==='right'? 'fabuhuiTextright' : 'fabuhuiTextleft'}}" style="width: {{item.width? item.width : ''}}rpx;">
+          <view class="itemTime">{{item.itemTime}}</view>
+          <view class="itemName">{{item.itemName}}</view>
+        </view>
+        <view class="{{item.type==='right'? 'fabuhuiBigPicright' : 'fabuhuiBigPicleft'}}" bindtap='preview' data-pic-src="{{item.bigPic}}"></view>
+        <view class="{{item.type==='right'? 'fabuhuiLeftPicright' : 'fabuhuiLeftPicleft'}}" bindtap='preview' data-pic-src="{{item.left}}"></view>
+        <view class="{{item.type==='right'? 'fabuhuiMiddlePicright' : 'fabuhuiMiddlePicleft'}}" bindtap='preview' data-pic-src="{{item.middle}}"></view>
+        <view class="{{item.type==='right'? 'fabuhuiRightPicright' : 'fabuhuiRightPicleft'}}" bindtap='preview' data-pic-src="{{item.right}}"></view>
+      </view>
+    </view>
+  </view>
+
+</view>

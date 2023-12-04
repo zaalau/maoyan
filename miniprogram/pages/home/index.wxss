@@ -1,0 +1,62 @@
+/* pages/home/index.wxss */
+.homeContainer {
+  width: 750rpx;
+}
+
+.swiperContainer {
+  width: 100%;
+  height: 333rpx;
+
+}
+.swiperitem {
+  width: 100%;
+  height: 333rpx;
+}
+.homeBtnContainer {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 565rpx;
+}
+.homeBtnContainer {
+  display: flex;
+	justify-content: space-between;
+  flex-wrap:wrap;
+  padding: 70rpx 55rpx;
+  box-sizing: border-box;
+}
+.navigateBtn {
+  background-size: 100% 100%;
+  width: 180rpx;
+  height: 190rpx;
+  margin: 0 10rpx 50rpx 0;
+}
+.homeBottom {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 613rpx;
+  position: relative;
+}
+.qiyewenhua {
+  position: absolute;
+  top: 260rpx;
+  left: 50rpx;
+  width: 180rpx;
+  height: 110rpx;
+  border-radius:60rpx;
+}
+.qiyewenhua2 {
+  position: absolute;
+  top: 260rpx;
+  left: 282rpx;
+  width: 180rpx;
+  height: 110rpx;
+  border-radius:60rpx;
+}
+.qiyewenhua3 {
+  position: absolute;
+  top: 260rpx;
+  left: 510rpx;
+  width: 180rpx;
+  height: 110rpx;
+  border-radius:60rpx;
+}

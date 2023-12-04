@@ -1,0 +1,61 @@
+/* pages/live/index.wxss */
+.liveContainer {
+  width: 750rpx;
+}
+.liveTop {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 108rpx;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  color: #ffffff;
+  padding: 0 190rpx;
+  box-sizing: border-box;
+  font-size: 35rpx;
+} 
+.topBtn {
+  margin: -5rpx 0 0 0 ;
+  position: relative;
+  
+}
+.chooseline {
+  position: absolute;
+  width: 33rpx;
+  height: 7rpx;
+  left: 55rpx;
+  border-radius: 50rpx;
+  background-color: rgb(255, 119, 7);
+}
+.shipinContainer {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 2050rpx;
+}
+.shipinItem {
+  background-size: 100% 100%;
+  width: 750rpx;
+  position: relative;
+}
+.shipinPic {
+  position: absolute;
+  width: 360rpx;
+  height: 240rpx;
+  border-radius: 30rpx;
+}
+.zhuangshi1 {
+  position: absolute;
+  background-size: 100% 100%;
+  top: 80rpx;
+  left: 8rpx;
+  width: 40rpx;
+  height: 25rpx;
+}
+.zhuangshi2 {
+  position: absolute;
+  background-size: 100% 100%;
+  top:0rpx;
+  right: 0;
+  width: 125rpx;
+  height: 150rpx;
+}

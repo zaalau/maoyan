@@ -1,0 +1,19 @@
+<!--pages/live/index.wxml-->
+<view class="liveContainer" style="min-height: {{liveHeight}}px;">
+  <view class="liveTop" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/LiveTop.webp?sign=92623f4c9af4eabcd16d8a038dd77144&t=1701624142');">
+    <view class="topBtn" bindtap='switchPage' data-pagename='shipin'>视频直播
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='shipin'}}"></view>
+    </view>
+    <view class="topBtn" bindtap='switchPage' data-pagename='tupian'>图片直播
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='tupian'}}"></view>
+    </view>
+  </view>
+  <view class="shipinContainer" wx:if="{{whosbeenchoosed==='shipin'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/shipinbg.webp?sign=f3886fbc177fc69287875daec9f95969&t=1701625211');">
+    <view class="shipinItem" wx:for="{{shipinData}}" wx:for-item="item" wx:for-index="index" wx:key="index" style="background-image: url({{item.bg}}); height: {{item.height}}rpx;">
+      <view class="shipinPic" wx:for="{{item.pic}}" wx:for-item="picItem" wx:for-index="picIndex" wx:key="picIndex" bindtap="preview" data-pic-src="{{picItem.src}}" style="top:{{picItem.top}}rpx;right:{{picItem.right}}rpx"></view>
+    </view>
+    <view class="zhuangshi1" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zhuangshi1.webp?sign=f8cd46bfb98992c1f64d45348d410ada&t=1701662627');"></view>
+    <view class="zhuangshi2" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zhuangshi2.webp?sign=f8cd46bfb98992c1f64d45348d410ada&t=1701662627');"></view>
+
+  </view>
+</view>

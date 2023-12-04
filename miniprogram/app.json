@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/live/index",
+    "pages/activity/index",
+    "pages/video/index",
+    "pages/miniP/index",
+    "pages/conference/index",
+    "pages/place/index"
+
+    
+  ],
+  "window": {
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "猫眼文化",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  
+  "lazyCodeLoading": "requiredComponents"
+}
