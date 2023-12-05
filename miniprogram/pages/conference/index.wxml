@@ -14,4 +14,26 @@
   <view class="jiedaiContainer" wx:if="{{whosbeenchoosed==='jiedai'}}" style="background-image: url({{jiedaiData.bg}});">
     <view class="pic" wx:for="{{jiedaiData.picItem}}" wx:for-item="jiedaiItem" wx:for-index="jiedaiIndex" wx:key="jiedaiIndex" style="top: {{jiedaiItem.top}}rpx;left: {{jiedaiItem.left}}rpx;" bindtap="preview" data-pic-src="{{jiedaiItem.src}}"></view>
   </view>
+  <view class="huiwuContainer" wx:if="{{whosbeenchoosed==='huiwu'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/jiedaiBg.webp?sign=dbdd7bd2cfcdb3c64da3b383bb65f2cf&t=1701701731');">
+    <view wx:for="{{huiwuData}}" wx:for-item="huiwuitem" wx:for-index="huiwuindex" wx:key="huiwuindex">
+      <view class="fabuhuiItem" style="background-image: url({{huiwuitem.bg}});">
+        <view class="{{huiwuitem.type==='right'? 'fabuhuiBigPicright' : 'fabuhuiBigPicleft'}}" bindtap='preview' data-pic-src="{{huiwuitem.bigPic}}"></view>
+        <view class="{{huiwuitem.type==='right'? 'fabuhuifir2right' : 'fabuhuifir2left'}}" bindtap='preview' data-pic-src="{{huiwuitem.fir2}}"></view>
+        <view class="{{huiwuitem.type==='right'? 'fabuhuisec1' : 'fabuhuisecleft1'}}" bindtap='preview' data-pic-src="{{huiwuitem.sec1}}"></view>
+        <view class="{{huiwuitem.type==='right'? 'fabuhuisec2' : 'fabuhuisecleft2'}}" bindtap='preview' data-pic-src="{{huiwuitem.sec2}}"></view>
+        <view class="{{huiwuitem.type==='right'? 'fabuhuisec3' : 'fabuhuisecleft3'}}" bindtap='preview' data-pic-src="{{huiwuitem.sec3}}"></view>
+      </view>
+    </view>
+  </view>
+  <view class="huizhanContainer" wx:if="{{whosbeenchoosed==='huizhan'}}" >
+    <view wx:for="{{huizhanData}}" wx:for-item="huizhanitem" wx:for-index="huizhanindex" wx:key="huizhanindex">
+      <view class="fabuhuiItem" style="background-image: url({{huizhanitem.bg}});">
+        <view class="{{huizhanitem.type==='right'? 'fabuhuiBigPicright' : 'fabuhuiBigPicleft'}}" bindtap='preview' data-pic-src="{{huizhanitem.bigPic}}"></view>
+        <view class="{{huizhanitem.type==='right'? 'fabuhuifir2right' : 'fabuhuifir2left'}}" bindtap='preview' data-pic-src="{{huizhanitem.fir2}}"></view>
+        <view class="{{huizhanitem.type==='right'? 'fabuhuisec1' : 'fabuhuisecleft1'}}" bindtap='preview' data-pic-src="{{huizhanitem.sec1}}"></view>
+        <view class="{{huizhanitem.type==='right'? 'fabuhuisec2' : 'fabuhuisecleft2'}}" bindtap='preview' data-pic-src="{{huizhanitem.sec2}}"></view>
+        <view class="{{huizhanitem.type==='right'? 'fabuhuisec3' : 'fabuhuisecleft3'}}" bindtap='preview' data-pic-src="{{huizhanitem.sec3}}"></view>
+      </view>
+    </view>
+  </view>
 </view>

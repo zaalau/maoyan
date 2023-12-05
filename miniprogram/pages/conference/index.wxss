@@ -51,10 +51,99 @@
   height: 1343rpx;
   position: relative;
 }
+.huiwuContainer {
+  width: 750rpx;
+  height: 1343rpx;
+  box-sizing: border-box;
+}
 .pic {
   position: absolute;
   top: 556rpx;
   left: 37rpx;
   width: 635rpx;
   height: 310rpx;
+}
+.fabuhuiItem {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 572rpx;
+  position: relative;
+}
+
+.fabuhuiBigPicright {
+  position: absolute;
+  width: 485rpx;
+  height: 318rpx;
+  top: 36rpx;
+  left: 0;
+}
+.fabuhuiBigPicleft {
+
+  position: absolute;
+  width: 488rpx;
+  height: 320rpx;
+  top: 35rpx;
+  right: 0rpx;
+}
+.fabuhuifir2right {
+
+  position: absolute;
+  width: 244rpx;
+  height: 185rpx;
+  top: 170rpx;
+  right: 23rpx;
+}
+.fabuhuifir2left {
+  
+  position: absolute;
+  width: 244rpx;
+  height: 185rpx;
+  top: 175rpx;
+  left: 21rpx;
+}
+.fabuhuisec1 {
+
+  position: absolute;
+  width: 243rpx;
+  height: 186rpx;
+  top: 355rpx;
+  left: 0rpx;
+}
+.fabuhuisecleft1 {
+
+  position: absolute;
+  width: 243rpx;
+  height: 186rpx;
+  top: 355rpx;
+  left: 18rpx;
+}
+.fabuhuisec2 {
+
+  position: absolute;
+  width: 243rpx;
+  height: 186rpx;
+  top: 355rpx;
+  left: 243rpx;
+}
+.fabuhuisecleft2 {
+
+  position: absolute;
+  width: 243rpx;
+  height: 186rpx;
+  top: 355rpx;
+  left: 261rpx;
+}
+.fabuhuisec3 {
+  position: absolute;
+  width: 243rpx;
+  height: 186rpx;
+  top: 355rpx;
+  left: 486rpx;
+}
+.fabuhuisecleft3 {
+  position: absolute;
+  width: 243rpx;
+  height: 186rpx;
+  top: 355rpx;
+  left: 504rpx;
 }

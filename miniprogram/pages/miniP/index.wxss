@@ -2,18 +2,27 @@
 .minipContainer {
   background-size: 100% 100%;
   width: 750rpx;
-  padding: 80rpx;
+  padding: 60rpx 80rpx 20rpx;
   box-sizing: border-box;
 }
-.title {
+.contentContainer {
+  margin: 0 0 50rpx 0;
+  box-sizing: border-box;
+}
+.title0 {
   background-size: 100% 100%;
-  width: 250rpx;
+  width: 304rpx;
+  height: 57rpx;
+}
+.title1 {
+  background-size: 100% 100%;
+  width: 248rpx;
   height: 57rpx;
 }
 .textContainer {
   background-size: 100% 100%;
-  width: 620rpx;
-  height: 606rpx;
+  width: 590rpx;
+  height: 577rpx;
   position: relative;
   margin: 0 auto;
 }
@@ -21,12 +30,11 @@
   position: absolute;
   width: 180rpx;
   height: 367rpx;
-  top: 60rpx;
+  top: 40rpx;
   left: 80rpx;
-  border-radius: 30rpx;
 }
 .swiperitem {
   width: 180rpx;
   height: 367rpx;
-  border-radius: 30rpx;
+  border-radius: 15rpx;
 }

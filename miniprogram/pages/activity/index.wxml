@@ -25,5 +25,41 @@
       </view>
     </view>
   </view>
+  <view class="kaiyeContainer" wx:if="{{whosbeenchoosed==='kaiye'}}">
+    <view wx:for="{{kaiyeData}}" wx:for-item="kaiyeitem" wx:for-index="kaiyeindex" wx:key="kaiyeindex">
+      <view class="fabuhuiItem" style="background-image: url({{kaiyeitem.bg}});">
+        <view class="{{kaiyeitem.type==='right'? 'fabuhuiBigPicright' : 'fabuhuiBigPicleft'}}" bindtap='preview' data-pic-src="{{kaiyeitem.bigPic}}"></view>
+        <view class="{{kaiyeitem.type==='right'? 'fabuhuifir2right' : 'fabuhuifir2left'}}" bindtap='preview' data-pic-src="{{kaiyeitem.fir2}}"></view>
+        <view class="fabuhuisec1" bindtap='preview' data-pic-src="{{kaiyeitem.sec1}}"></view>
+        <view class="fabuhuisec2" bindtap='preview' data-pic-src="{{kaiyeitem.sec2}}"></view>
+        <view class="fabuhuisec3" bindtap='preview' data-pic-src="{{kaiyeitem.sec3}}"></view>
+      </view>
+    </view>
+  </view>
+  <view class="wanhuiContainer" wx:if="{{whosbeenchoosed==='wanhui'}}">
+    <view wx:for="{{wanhuiData}}" wx:for-item="wanhuiitem" wx:for-index="wanhuiindex" wx:key="wanhuiindex">
+      <view class="fabuhuiItem" style="background-image: url({{wanhuiitem.bg}});">
+        <view class="{{wanhuiitem.type==='right'? 'fabuhuiBigPicright' : 'fabuhuiBigPicleft'}}" bindtap='preview' data-pic-src="{{wanhuiitem.bigPic}}"></view>
+        <view class="{{wanhuiitem.type==='right'? 'fabuhuifir2right' : 'fabuhuifir2left'}}" bindtap='preview' data-pic-src="{{wanhuiitem.fir2}}"></view>
+        <view class="fabuhuisec1" bindtap='preview' data-pic-src="{{wanhuiitem.sec1}}"></view>
+        <view class="fabuhuisec2" bindtap='preview' data-pic-src="{{wanhuiitem.sec2}}"></view>
+        <view class="fabuhuisec3" bindtap='preview' data-pic-src="{{wanhuiitem.sec3}}"></view>
+      </view>
+    </view>
+    <view class="otherBg" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/otherBg.webp?sign=8944941ae574b943b645c47ed3c04858&t=1701792152');">
+      <view class="otherPic" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/otherPic.webp?sign=bf97215bb6baae5543fb9bacfa626718&t=1701792063');"></view>
+    </view>
+  </view>
+  <view class="yanlianContainer" wx:if="{{whosbeenchoosed==='yanlian'}}">
+    <view wx:for="{{yanlianData}}" wx:for-item="yanlianitem" wx:for-index="yanlianindex" wx:key="yanlianindex">
+      <view class="fabuhuiItem" style="background-image: url({{yanlianitem.bg}});">
+        <view class="{{yanlianitem.type==='right'? 'fabuhuiBigPicright' : 'fabuhuiBigPicleft'}}" bindtap='preview' data-pic-src="{{yanlianitem.bigPic}}"></view>
+        <view class="{{yanlianitem.type==='right'? 'fabuhuifir2right' : 'fabuhuifir2left'}}" bindtap='preview' data-pic-src="{{yanlianitem.fir2}}"></view>
+        <view class="fabuhuisec1" bindtap='preview' data-pic-src="{{yanlianitem.sec1}}"></view>
+        <view class="fabuhuisec2" bindtap='preview' data-pic-src="{{yanlianitem.sec2}}"></view>
+        <view class="fabuhuisec3" bindtap='preview' data-pic-src="{{yanlianitem.sec3}}"></view>
+      </view>
+    </view>
+  </view>
 
 </view>

@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    kaiping:true,
     swiperItem: [
       {
         src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper1.jpg?sign=f50f4ca127b53a3a69989e17ed0d8c50&t=1701531067s',
@@ -80,8 +81,13 @@ Page({
   toPage(e) {
     wx.vibrateShort()
     const url = e.target.dataset.pageurl
-    wx.navigateTo({
-      url: `../${url}/index`,
+      wx.navigateTo({
+        url: `../${url}/index`,
+      })
+  },
+  ifshowkaiping() {
+    this.setData({
+      kaiping:false
     })
   },
   /**
@@ -98,6 +104,11 @@ Page({
         })
       }
     })
+    setTimeout(() => {
+      this.setData({
+        kaiping: false
+      })
+    }, 3000);
   },
 
   /**
@@ -148,7 +159,10 @@ Page({
   onShareAppMessage() {
     
   },
-  onShareTimeline() {
+  onShareTimeline: function () {
+		return {
+	      title: '每一个片子，每一场晚会，都是我们的作品。',
+	    }
+	},
 
-  }
 })

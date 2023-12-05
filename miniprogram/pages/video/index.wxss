@@ -50,7 +50,10 @@
 .huodongContainer {
   background-size: 100% 100%;
   width: 750rpx;
-  height: 1352rpx;
+  min-height: 1352rpx;
+  padding-bottom: 30rpx;
+  box-sizing: border-box;
+  
 }
 .huodongItem {
   padding: 30rpx 70rpx;
@@ -64,8 +67,108 @@
   text-align: center;
   box-sizing: border-box;
 }
-.smallTitle {
+.smallTitle0 {
   background-size: 100% 100%;
   width: 90rpx;
   height: 30rpx;
+  margin-bottom: 10rpx;
+
 }
+.smallTitle1 {
+  background-size: 100% 100%;
+  margin-top: 30rpx;
+  width: 193rpx;
+  height: 30rpx;
+  margin-bottom: 10rpx;
+}
+.smallTitle2 {
+  background-size: 100% 100%;
+  width: 262rpx;
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+  height: 30rpx;
+}
+.mp4 {
+  margin: 5rpx auto 0;
+  width: 610rpx;
+  height: 300rpx;
+}
+.mtvContainer {
+  background-size: 100% 100%;
+  width: 750rpx;
+  min-height: 1352rpx;
+  padding: 50rpx 0 60rpx;
+  box-sizing: border-box;
+  
+}
+.mtvItem {
+  padding: 30rpx 70rpx;
+  box-sizing: border-box;
+}
+.mtvTitle {
+  background-size: 100% 100%;
+  width: 400rpx;
+  height: 55rpx;
+  margin: 0 auto 30rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+.mtvsmallTitle00 {
+  background-size: 100% 100%;
+  width: 159rpx;
+  height: 30rpx;
+  margin-bottom: 10rpx;
+
+}
+.mtvsmallTitle10 {
+  background-size: 100% 100%;
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+
+  width: 136rpx;
+  height: 30rpx;
+}
+.xuanchuanContainer {
+  background-size: 100% 100%;
+  width: 750rpx;
+  min-height: 1352rpx;
+  padding: 50rpx 0 60rpx;
+  box-sizing: border-box;
+  
+}
+.xuanchuanItem {
+  padding: 30rpx 70rpx;
+  box-sizing: border-box;
+}
+.xuanchuanTitle0 {
+  background-size: 100% 100%;
+  width: 436rpx;
+  height: 55rpx;
+
+  margin: 0 auto 30rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+.xuanchuanTitle1 {
+  background-size: 100% 100%;
+  width: 400rpx;
+  height: 55rpx;
+  margin: 0 auto 30rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+.xuanchuansmallTitle00 {
+  background-size: 100% 100%;
+  width: 136rpx;
+  height: 30rpx;
+  margin-bottom: 10rpx;
+}
+.xuanchuansmallTitle10 {
+  background-size: 100% 100%;
+  margin-top: 30rpx;
+  width: 136rpx;
+  height: 30rpx;
+  margin-bottom: 10rpx;
+
+}
+

@@ -1,6 +1,7 @@
 /* pages/live/index.wxss */
 .liveContainer {
   width: 750rpx;
+  box-sizing: border-box;
 }
 .liveTop {
   background-size: 100% 100%;
@@ -30,34 +31,28 @@
 .shipinContainer {
   background-size: 100% 100%;
   width: 750rpx;
-  height: 2050rpx;
+  padding: 60rpx 40rpx 0 40rpx;
+  box-sizing: border-box;
+  height: 2208rpx;
 }
 .shipinItem {
   background-size: 100% 100%;
-  width: 750rpx;
+  width: 100%;
+  margin-bottom: 120rpx;
   position: relative;
+  box-sizing: border-box;
 }
 .shipinPic {
   position: absolute;
-  width: 360rpx;
-  height: 240rpx;
+  width: 305rpx;
+  height: 208rpx;
   border-radius: 30rpx;
 }
-.zhuangshi1 {
+.shipinPic1 {
   position: absolute;
-  background-size: 100% 100%;
-  top: 80rpx;
-  left: 8rpx;
-  width: 40rpx;
-  height: 25rpx;
-}
-.zhuangshi2 {
-  position: absolute;
-  background-size: 100% 100%;
-  top:0rpx;
-  right: 0;
-  width: 125rpx;
-  height: 150rpx;
+  width: 338rpx;
+  height: 226rpx;
+  border-radius: 30rpx;
 }
 .tupianContainer {
   background-size: 100% 100%;

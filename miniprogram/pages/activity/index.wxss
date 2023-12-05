@@ -47,6 +47,9 @@
 .fabuhuiContainer {
   width: 750rpx;
 }
+.kaiyeContainer {
+  width: 750rpx;
+}
 .fabuhuiItem {
   background-size: 100% 100%;
   width: 750rpx;
@@ -103,4 +106,17 @@
   height: 186rpx;
   top: 355rpx;
   left: 486rpx;
+}
+.otherBg {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 1408rpx;
+  padding: 60rpx 0;
+  box-sizing: border-box;
+}
+.otherPic {
+  background-size: 100% 100%;
+  margin: 0 auto;
+  width: 650rpx;
+  height: 1276rpx;
 }

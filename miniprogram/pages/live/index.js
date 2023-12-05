@@ -5,46 +5,46 @@ Page({
    * 页面的初始数据
    */
   data: {
-    whosbeenchoosed:'tupian',
+    whosbeenchoosed:'shipin',
     shipinData:[
       {
-        bg:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zhuanbochebg.webp?sign=581689edd7801ec78cca5ce4d4a75620&t=1701662210',
-        height:1158,
+        bg:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zhuanbochebg.webp?sign=01def18528be897058924dc06aa1ae89&t=1701780546',
+        height:1103,
         pic:[
           {
-            top: 360,
-            right: 18,
+            top: 350,
+            right: 5,
             src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/shipinpic1.webp?sign=0bc843f1ab76dfea0ba8fa6d7d14b633&t=1701626444',
           },
           {
-            top: 640,
-            right: 370,
+            top: 620,
+            right: 360,
             src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/shipinpic2.webp?sign=412854e610932d3c2f16e2b87fa0cedb&t=1701626650',
           },
           {
-            top: 915,
-            right: 20,
+            top: 898,
+            right: 5,
             src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/shipinpic3.webp?sign=5f737fb0f39c8fe27b5c9ecca13cd3b4&t=1701626852',
           }
         ]
       },
       {
-        bg:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/putongbg.webp?sign=2a55aac4c7885e12e642abe10f9680c6&t=1701662429',
-        height:943,
+        bg:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/putongbg.webp?sign=fa4eba00e8269cc445ae9f7bd7f70cbb&t=1701780563',
+        height:797,
         pic:[
           {
-            top: 380,
-            right: 18,
+            top: 300,
+            right: 5,
             src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/picitem6.webp?sign=a09ee38058a5f92ad34bcf4c52b245da&t=1701627321',
           },
           {
-            top: 645,
-            right: 388,
+            top: 575,
+            right: 338,
             src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/picitem7.webp?sign=c532666054cbecc5461e2a14eda062f6&t=1701627755',
           },
           {
-            top: 645,
-            right: 18,
+            top: 568,
+            right: 0,
             src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/picitem8.webp?sign=c532666054cbecc5461e2a14eda062f6&t=1701627755',
           },
           
