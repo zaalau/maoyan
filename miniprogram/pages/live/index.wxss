@@ -59,3 +59,23 @@
   width: 125rpx;
   height: 150rpx;
 }
+.tupianContainer {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 1341rpx;
+  
+}
+.tupianContent {
+  display: flex;
+	justify-content: space-between;
+  flex-wrap:wrap;
+  padding: 60rpx 75rpx;
+  box-sizing: border-box;
+}
+.liveBtn {
+  background-size: 100% 100%;
+  width: 265rpx;
+  height: 175rpx;
+  margin-bottom: 30rpx;
+  
+}

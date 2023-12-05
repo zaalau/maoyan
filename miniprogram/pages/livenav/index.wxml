@@ -1,0 +1,2 @@
+<!--pages/livenav/index.wxml-->
+<web-view src="{{tosrc}}"/>

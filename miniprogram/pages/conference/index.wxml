@@ -1,2 +1,17 @@
 <!--pages/conference/index.wxml-->
-<text>pages/conference/index.wxml</text>
+<view class="conferenceContainer" style="min-height: {{conferenceHeight}}px;">
+  <view class="conferenceTop" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/changditop.webp?sign=448080a1fa4a612d6a198aa3ee9b3297&t=1701757143');">
+    <view class="{{whosbeenchoosed==='huiwu'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='huiwu'>会务案例
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='huiwu'}}"></view>
+    </view>
+    <view class="{{whosbeenchoosed==='jiedai'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='jiedai'>接待案例
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='jiedai'}}"></view>
+    </view>
+    <view class="{{whosbeenchoosed==='huizhan'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='huizhan'>会展案例
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='huizhan'}}"></view>
+    </view>
+  </view>
+  <view class="jiedaiContainer" wx:if="{{whosbeenchoosed==='jiedai'}}" style="background-image: url({{jiedaiData.bg}});">
+    <view class="pic" wx:for="{{jiedaiData.picItem}}" wx:for-item="jiedaiItem" wx:for-index="jiedaiIndex" wx:key="jiedaiIndex" style="top: {{jiedaiItem.top}}rpx;left: {{jiedaiItem.left}}rpx;" bindtap="preview" data-pic-src="{{jiedaiItem.src}}"></view>
+  </view>
+</view>

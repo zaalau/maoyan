@@ -1,16 +1,16 @@
 <!--pages/activity/index.wxml-->
 <view class="activityContainer" style="min-height: {{activityHeight}}px;">
   <view class="activityTop" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/huodongtopbg.jpg?sign=e6ea32961aebaad6009c6de8055fcec6&t=1701607678');">
-    <view class="{{whosbeenchoosed==='fabuhui'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='fabuhui'>发布会
+    <view class="{{whosbeenchoosed==='fabuhui'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='fabuhui'>发布会案例
       <view class="chooseline" wx:if="{{whosbeenchoosed==='fabuhui'}}"></view>
     </view>
-    <view class="{{whosbeenchoosed==='kaiye'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='kaiye'>开业庆典
+    <view class="{{whosbeenchoosed==='kaiye'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='kaiye'>开业庆典案例
       <view class="chooseline" wx:if="{{whosbeenchoosed==='kaiye'}}"></view>
     </view>
-    <view class="{{whosbeenchoosed==='wanhui'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='wanhui'>晚 会
+    <view class="{{whosbeenchoosed==='wanhui'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='wanhui'>晚会案例
       <view class="chooseline" wx:if="{{whosbeenchoosed==='wanhui'}}"></view>
     </view>
-    <view class="{{whosbeenchoosed==='yanlian'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='yanlian'>演 练
+    <view class="{{whosbeenchoosed==='yanlian'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='yanlian'>演练案例
       <view class="chooseline" wx:if="{{whosbeenchoosed==='yanlian'}}"></view>
     </view>
   </view>

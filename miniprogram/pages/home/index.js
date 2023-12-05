@@ -6,7 +6,6 @@ Page({
    */
   data: {
     swiperItem: [
-      
       {
         src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper1.jpg?sign=f50f4ca127b53a3a69989e17ed0d8c50&t=1701531067s',
       },
@@ -147,6 +146,9 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage() {
+    
+  },
+  onShareTimeline() {
 
   }
 })

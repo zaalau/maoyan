@@ -1,14 +1,13 @@
 {
   "pages": [
     "pages/home/index",
+    "pages/conference/index",
     "pages/live/index",
     "pages/activity/index",
     "pages/video/index",
     "pages/miniP/index",
-    "pages/conference/index",
-    "pages/place/index"
-
-    
+    "pages/place/index",
+    "pages/livenav/index"
   ],
   "window": {
     "backgroundColor": "#000000",

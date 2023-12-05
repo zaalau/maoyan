@@ -1,1 +1,99 @@
 /* pages/place/index.wxss */
+.placeContainer {
+  width: 750rpx;
+}
+.placeTop {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 101rpx;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  color: #ffffff;
+  border-bottom: 3rpx solid #ffffff5e;
+}
+.choosedBtn {
+  background-color: #9f0101;
+  width: 165rpx;
+  height: 58rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rpx;
+  font-size: 22rpx;
+  font-weight: bold;
+  position: relative;
+}
+.choosedBtn2 {
+  padding: 5rpx 0;
+  box-sizing: border-box;
+  background-color: #9f0101;
+  width: 165rpx;
+  height: 58rpx;
+  border-radius: 10rpx;
+  font-size: 22rpx;
+  font-weight: bold;
+  position: relative;
+}
+.unchooseBtn {
+  background-color: #d26a0e;
+  width: 165rpx;
+  height: 58rpx;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border-radius: 10rpx;
+  font-size: 22rpx;
+  font-weight: bold;
+  position: relative;
+}
+.unchooseBtn2 {
+  padding: 5rpx 0;
+  box-sizing: border-box;
+  background-color: #d26a0e;
+  width: 165rpx;
+  height: 58rpx;
+  border-radius: 10rpx;
+  font-size: 22rpx;
+  font-weight: bold;
+  position: relative;
+}
+.chooseline {
+  width: 90rpx;
+  height: 6rpx;
+  border-radius: 50rpx;
+  background-color: #9f0101;
+  position: absolute;
+  bottom: -15rpx;
+}
+.chooseline2 {
+  width: 90rpx;
+  height: 6rpx;
+  border-radius: 50rpx;
+  background-color: #9f0101;
+  position: absolute;
+  bottom: -15rpx;
+  left: 40rpx;
+}
+.aotiitem {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 25rpx;
+}
+.changdibottom {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 1347rpx;
+  padding: 40rpx 50rpx;
+  box-sizing: border-box;
+}
+.textContainer {
+  background-size: 100% 100%;
+  width: 650rpx;
+  height: 185rpx;
+}
+.picContainer {
+  background-size: 100% 100%;
+  width: 650rpx;
+  height: 925rpx;
+}

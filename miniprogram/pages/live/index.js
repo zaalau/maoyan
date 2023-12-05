@@ -50,7 +50,39 @@ Page({
           
         ]
       },
+    ],
+    liveData:[
+    {
+      src:'https://acd.alltuu.com/mobile/?id=1002406646&mode=release',
+      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lively.webp?sign=da02a755c39e5ac291c9266b39f2c072&t=1701682112'
+    },
+    {
+      src:'https://v09.alltuu.com/r/eIJ7ni/',
+      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/liveyyy.webp?sign=2d292e7929e4bc62c02c1d4f78f4908f&t=1701682125'
+    },
+    {
+      src:'https://v09.alltuu.com/r/eIJ7ni/',
+      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/liveyjyl.webp?sign=f4ee27c618f965c80c92d8cbbc5c8f34&t=1701682133'
+    },
+    {
+      src:'https://v09.alltuu.com/r/eIJ7ni/',
+      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livemt.webp?sign=ce0c6a0dfc472766595f946541bec8ee&t=1701682140'
+    },
+    {
+      src:'https://v09.alltuu.com/r/eIJ7ni/',
+      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livemm.webp?sign=526190b7ac6dca9652289f2ebe2ebf1d&t=1701682147'
+    },
+    {
+      src:'https://v09.alltuu.com/r/eIJ7ni/',
+      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livejz.webp?sign=3b4035104e6e955adb7683a3d6363693&t=1701682154'
+    },
     ]
+  },
+  toPageLive(e){
+    const { src } = e.currentTarget.dataset
+    wx.navigateTo({
+      url: `../livenav/index?src=${src}`,
+    })
   },
   preview(e) {
     const { picSrc } = e.currentTarget.dataset

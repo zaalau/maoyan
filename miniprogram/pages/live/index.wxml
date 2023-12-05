@@ -16,4 +16,11 @@
     <view class="zhuangshi2" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zhuangshi2.webp?sign=f8cd46bfb98992c1f64d45348d410ada&t=1701662627');"></view>
 
   </view>
+  <view class="tupianContainer" wx:if="{{whosbeenchoosed==='tupian'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/tupianbg.webp?sign=d5bbc7e864b449334926319ad96361be&t=1701681141');">
+    <view class="tupianContent">
+      <view class="liveBtn" wx:for="{{liveData}}" wx:for-item="liveItem" wx:for-index="liveIndex" wx:key="liveIndex" bindtap='toPageLive' style="background-image: url({{liveItem.picSrc}});" data-src="{{liveItem.src}}"></view>
+    </view>
+
+
+  </view>
 </view>

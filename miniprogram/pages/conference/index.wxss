@@ -1,1 +1,60 @@
 /* pages/conference/index.wxss */
+.conferenceContainer {
+  width: 750rpx;
+}
+
+.conferenceTop {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 101rpx;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  color: #ffffff;
+  border-bottom: 3rpx solid #ffffff5e;
+}
+.choosedBtn {
+  background-color: #9f0101;
+  width: 135rpx;
+  height: 48rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rpx;
+  font-size: 23rpx;
+  font-weight: bold;
+  position: relative;
+}
+.unchooseBtn {
+  background-color: #d26a0e;
+  width: 135rpx;
+  height: 48rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rpx;
+  font-size: 23rpx;
+  font-weight: bold;
+  position: relative;
+}
+.chooseline {
+  width: 90rpx;
+  height: 7rpx;
+  border-radius: 50rpx;
+  background-color: #9f0101;
+  position: absolute;
+  bottom: -15rpx;
+}
+.jiedaiContainer {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 1343rpx;
+  position: relative;
+}
+.pic {
+  position: absolute;
+  top: 556rpx;
+  left: 37rpx;
+  width: 635rpx;
+  height: 310rpx;
+}

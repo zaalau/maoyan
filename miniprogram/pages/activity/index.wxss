@@ -14,25 +14,25 @@
 }
 .choosedBtn {
   background-color: #9f0101;
-  width: 135rpx;
+  width: 155rpx;
   height: 48rpx;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10rpx;
-  font-size: 27rpx;
+  font-size: 23rpx;
   font-weight: bold;
   position: relative;
 }
 .unchooseBtn {
   background-color: #d26a0e;
-  width: 135rpx;
+  width: 155rpx;
   height: 48rpx;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10rpx;
-  font-size: 27rpx;
+  font-size: 23rpx;
   font-weight: bold;
   position: relative;
 }
