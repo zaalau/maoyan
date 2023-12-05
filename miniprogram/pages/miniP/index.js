@@ -5,21 +5,99 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    minipData:[
+      
+      {
+        title: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/hztitle.webp?sign=d062b610b7c2779cc013c4f63137ec34&t=1701776659',
+        bg: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkbg.webp?sign=22e1bea73fd571fe553ee96deb698bda&t=1701778150',
+        swiperItem:[
+          {
+            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkzy.webp?sign=f15fef36e63f4a173d175338a533c6ff&t=1701777436'
+          },
+          {
+            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkdsj.webp?sign=5242e881478da91acaaf5b100354811e&t=1701777445'
+          },
+          {
+            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkbj.webp?sign=1cbbc1c679c043c110b6eab4138e2751&t=1701777452'
+          },
+          {
+            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkmywish.webp?sign=61573ad0b20ba77c5a20c0e986cffefb&t=1701777458'
+          },
+          {
+            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkzw.webp?sign=6d5f9f22bb9942263584a4a2fefbb4ee&t=1701777365'
+          },
+          {
+            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkzb.webp?sign=bf99f1f74b02ce4e1dfdef12eecc20ea&t=1701777373'
+          },
+          {
+            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkwish.webp?sign=71c7c7ce6c0a50269eb3e64e7c1c5ea5&t=1701777379'
+          },
+          {
+            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkhc.webp?sign=6afe20dc193c79b0e5b56f8f798b8a7c&t=1701777386'
+          },
+          {
+            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkdt.webp?sign=c744e0b45026da69b66e149064d8128e&t=1701777393'
+          },
+          {
+            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkcj.webp?sign=97a5ff77d793e2957accce779814557f&t=1701777402'
+          },
+          
+        ]
+      },
+      // {
+      //   title: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zktitle.webp?sign=a14e95e74cc324c821f19cb2ea9b9cb1&t=1701776636',
+      //   bg: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkbg.webp?sign=5860cca0f1fef4aaac23deee2147cf2a&t=1701776645',
+      //   swiperItem:[
+      //     {
+      //       src:''
+      //     },
+      //     {
+      //       src:''
+      //     },
+      //     {
+      //       src:''
+      //     },
+      //     {
+      //       src:''
+      //     },
+      //     {
+      //       src:''
+      //     },
+      //     {
+      //       src:''
+      //     },
+      //     {
+      //       src:''
+      //     },
+      //     {
+      //       src:''
+      //     },
+      //   ]
+      // }
+    ]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    wx.showLoading({
+      title: '加载中',
+    })
+    wx.getSystemInfo({
+      success: res => {
+        this.setData({
+          minipHeight: res.windowHeight
+        })
+      }
+    })
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady() {
-
+    wx.hideLoading()
   },
 
   /**

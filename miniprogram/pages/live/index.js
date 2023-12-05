@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    whosbeenchoosed:'shipin',
+    whosbeenchoosed:'tupian',
     shipinData:[
       {
         bg:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zhuanbochebg.webp?sign=581689edd7801ec78cca5ce4d4a75620&t=1701662210',
@@ -53,28 +53,34 @@ Page({
     ],
     liveData:[
     {
-      src:'https://acd.alltuu.com/mobile/?id=1002406646&mode=release',
-      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lively.webp?sign=da02a755c39e5ac291c9266b39f2c072&t=1701682112'
+      src:'https://v05.alltuu.com/r/EZfABz/',
+      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic1.webp?sign=b295c016c5a4db8e37d8785d1663167c&t=1701772055',
+      textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle1.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
     },
     {
-      src:'https://v09.alltuu.com/r/eIJ7ni/',
-      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/liveyyy.webp?sign=2d292e7929e4bc62c02c1d4f78f4908f&t=1701682125'
+      src:'https://v05.alltuu.com/r/FZ7zia/',
+      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic2.webp?sign=5e4b8bc94b0be345f70237fa077059ab&t=1701772069',
+      textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle2.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
     },
     {
-      src:'https://v09.alltuu.com/r/eIJ7ni/',
-      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/liveyjyl.webp?sign=f4ee27c618f965c80c92d8cbbc5c8f34&t=1701682133'
+      src:'https://v05.alltuu.com/r/rURBve/',
+      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic3.webp?sign=2ce2a62d1dba6d90b4d5405958ef840e&t=1701772076',
+      textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle3.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
     },
     {
-      src:'https://v09.alltuu.com/r/eIJ7ni/',
-      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livemt.webp?sign=ce0c6a0dfc472766595f946541bec8ee&t=1701682140'
+      src:'https://v05.alltuu.com/r/YvA3uq/',
+      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic4.webp?sign=a770a770add4bdf35ed98c4cde2b57e6&t=1701772084',
+      textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle4.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
     },
     {
-      src:'https://v09.alltuu.com/r/eIJ7ni/',
-      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livemm.webp?sign=526190b7ac6dca9652289f2ebe2ebf1d&t=1701682147'
+      src:'https://v05.alltuu.com/r/fm2qai/',
+      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic5.webp?sign=da3d970138a62381c3bc50774dcba9e7&t=1701772092',
+      textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle5.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
     },
     {
-      src:'https://v09.alltuu.com/r/eIJ7ni/',
-      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livejz.webp?sign=3b4035104e6e955adb7683a3d6363693&t=1701682154'
+      src:'https://v05.alltuu.com/r/Q7nIjm/',
+      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic6.webp?sign=b25c1f64eab6cd6bc3cc1ef3382f1a8d&t=1701772111',
+      textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle6.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
     },
     ]
   },

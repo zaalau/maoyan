@@ -17,8 +17,12 @@
 
   </view>
   <view class="tupianContainer" wx:if="{{whosbeenchoosed==='tupian'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/tupianbg.webp?sign=d5bbc7e864b449334926319ad96361be&t=1701681141');">
-    <view class="tupianContent">
-      <view class="liveBtn" wx:for="{{liveData}}" wx:for-item="liveItem" wx:for-index="liveIndex" wx:key="liveIndex" bindtap='toPageLive' style="background-image: url({{liveItem.picSrc}});" data-src="{{liveItem.src}}"></view>
+    <view class="tupianContent" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/tupiancontentbg.webp?sign=80636d54824064ab6ca1a8d1727da4f6&t=1701772367');">
+      <view  wx:for="{{liveData}}" wx:for-item="liveItem" wx:for-index="liveIndex" wx:key="liveIndex" >
+        <view class="liveBtn" bindtap='toPageLive' style="background-image: url({{liveItem.picSrc}});" data-src="{{liveItem.src}}"></view>
+        <view class="liveTitle" bindtap='toPageLive' style="background-image: url({{liveItem.textSrc}});" data-src="{{liveItem.src}}"></view>
+      </view>
+     
     </view>
 
 

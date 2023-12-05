@@ -21,11 +21,11 @@
 }
 .chooseline {
   position: absolute;
-  width: 33rpx;
+  width: 53rpx;
   height: 7rpx;
-  left: 55rpx;
+  left: 36rpx;
   border-radius: 50rpx;
-  background-color: rgb(255, 119, 7);
+  background-color: #002ebd;
 }
 .shipinContainer {
   background-size: 100% 100%;
@@ -62,20 +62,28 @@
 .tupianContainer {
   background-size: 100% 100%;
   width: 750rpx;
-  height: 1341rpx;
-  
+  padding: 50rpx 0;
+  box-sizing:border-box;
 }
 .tupianContent {
-  display: flex;
-	justify-content: space-between;
-  flex-wrap:wrap;
-  padding: 60rpx 75rpx;
+  background-size: 100% 100%;
+  width: 650rpx;
+  height: 2344rpx;
+  margin: 0 auto;
+  padding: 55rpx 0rpx 10rpx;
   box-sizing: border-box;
 }
 .liveBtn {
   background-size: 100% 100%;
-  width: 265rpx;
-  height: 175rpx;
-  margin-bottom: 30rpx;
+  width: 570rpx;
+  height: 252rpx;
+  margin: 0 auto;
+  
+}
+.liveTitle {
+  background-size: 100% 100%;
+  width: 570rpx;
+  height: 73rpx;
+  margin: 20rpx auto 40rpx;
   
 }

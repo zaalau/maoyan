@@ -1,12 +1,12 @@
 // app.js
 App({
   onLaunch: function () {
-    wx.loadFontFace({
-      family: 'yier',
-      source: 'url("https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/SOURCEHANSANSCN-NORMAL(1).OTF?sign=54f895d464faaff24189e4307a88274e&t=1701618089")',
-      global: true,
-      success: function () {}
-    })
+    // wx.loadFontFace({
+    //   family: 'yier',
+    //   source: 'url("https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/SOURCEHANSANSCN-NORMAL(1).OTF?sign=54f895d464faaff24189e4307a88274e&t=1701618089")',
+    //   global: true,
+    //   success: function () {}
+    // })
     if (!wx.cloud) {
       console.error('请使用 2.2.3 或以上的基础库以使用云能力');
       

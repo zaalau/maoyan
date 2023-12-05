@@ -1,1 +1,32 @@
 /* pages/miniP/index.wxss */
+.minipContainer {
+  background-size: 100% 100%;
+  width: 750rpx;
+  padding: 80rpx;
+  box-sizing: border-box;
+}
+.title {
+  background-size: 100% 100%;
+  width: 250rpx;
+  height: 57rpx;
+}
+.textContainer {
+  background-size: 100% 100%;
+  width: 620rpx;
+  height: 606rpx;
+  position: relative;
+  margin: 0 auto;
+}
+.swiperContainer {
+  position: absolute;
+  width: 180rpx;
+  height: 367rpx;
+  top: 60rpx;
+  left: 80rpx;
+  border-radius: 30rpx;
+}
+.swiperitem {
+  width: 180rpx;
+  height: 367rpx;
+  border-radius: 30rpx;
+}

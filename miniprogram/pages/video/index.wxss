@@ -1,1 +1,71 @@
 /* pages/video/index.wxss */
+.videoContainer {
+  width: 750rpx;
+  
+}
+
+
+.videoTop {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 98rpx;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  color: #ffffff;
+  border-bottom: 3rpx solid #ffffff5e;
+}
+.choosedBtn {
+  background-color: #9f0101;
+  width: 200rpx;
+  height: 48rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rpx;
+  font-size: 25rpx;
+  font-weight: bold;
+  position: relative;
+}
+.unchooseBtn {
+  background-color: #d26a0e;
+  width: 200rpx;
+  height: 48rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rpx;
+  font-size: 25rpx;
+  font-weight: bold;
+  position: relative;
+}
+.chooseline {
+  width: 90rpx;
+  height: 7rpx;
+  border-radius: 50rpx;
+  background-color: #9f0101;
+  position: absolute;
+  bottom: -15rpx;
+}
+.huodongContainer {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 1352rpx;
+}
+.huodongItem {
+  padding: 30rpx 70rpx;
+  box-sizing: border-box;
+}
+.huodongTitle {
+  background-size: 100% 100%;
+  width: 400rpx;
+  height: 55rpx;
+  margin: 0 auto 30rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+.smallTitle {
+  background-size: 100% 100%;
+  width: 90rpx;
+  height: 30rpx;
+}

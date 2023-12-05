@@ -1,2 +1,24 @@
 <!--pages/video/index.wxml-->
-<text>pages/video/index.wxml</text>
+<view class="videoContainer" style="min-height: {{videoHeight}}px;">
+  <view class="videoTop" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/videotop.webp?sign=b70f4bd49ad62cdb143759f474103d85&t=1701760110');">
+    <view class="{{whosbeenchoosed==='huodong'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='huodong'>活动视频制作
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='huodong'}}"></view>
+    </view>
+    <view class="{{whosbeenchoosed==='mtv'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='mtv'>MTV制作
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='mtv'}}"></view>
+    </view>
+    <view class="{{whosbeenchoosed==='xuanchuan'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='xuanchuan'>宣传片制作
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='xuanchuan'}}"></view>
+    </view>
+  </view>
+  <view class="huodongContainer" wx:if="{{whosbeenchoosed==='huodong'}}" style="background-image: url({{huodongData.bg}});">
+    <view class="huodongItem" wx:for="{{huodongData.huodongItem}}" wx:for-item="item" wx:for-index="index" wx:key="index" >
+      <view class="huodongTitle" style="background-image: url({{item.title}});"></view>
+      <view class="videoItem" wx:for="{{item.mp4item}}" wx:for-item="mp4Item" wx:for-index="mp4Index" wx:key="mp4Index">
+        <view class="smallTitle" style="background-image: url({{mp4Item.title}});"></view>
+        <channel-video feed-token="{{mp4Item.feedId}}" finder-user-name="{{mp4Item.finderUserName}}"/>
+      </view>
+    </view>
+  
+  </view>
+</view>

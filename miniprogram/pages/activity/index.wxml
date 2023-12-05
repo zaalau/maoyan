@@ -17,14 +17,11 @@
   <view class="fabuhuiContainer" wx:if="{{whosbeenchoosed==='fabuhui'}}">
     <view wx:for="{{fabuhuiData}}" wx:for-item="item" wx:for-index="index" wx:key="index">
       <view class="fabuhuiItem" style="background-image: url({{item.bg}});">
-        <view class="{{item.type==='right'? 'fabuhuiTextright' : 'fabuhuiTextleft'}}" style="width: {{item.width? item.width : ''}}rpx;">
-          <view class="itemTime">{{item.itemTime}}</view>
-          <view class="itemName">{{item.itemName}}</view>
-        </view>
         <view class="{{item.type==='right'? 'fabuhuiBigPicright' : 'fabuhuiBigPicleft'}}" bindtap='preview' data-pic-src="{{item.bigPic}}"></view>
-        <view class="{{item.type==='right'? 'fabuhuiLeftPicright' : 'fabuhuiLeftPicleft'}}" bindtap='preview' data-pic-src="{{item.left}}"></view>
-        <view class="{{item.type==='right'? 'fabuhuiMiddlePicright' : 'fabuhuiMiddlePicleft'}}" bindtap='preview' data-pic-src="{{item.middle}}"></view>
-        <view class="{{item.type==='right'? 'fabuhuiRightPicright' : 'fabuhuiRightPicleft'}}" bindtap='preview' data-pic-src="{{item.right}}"></view>
+        <view class="{{item.type==='right'? 'fabuhuifir2right' : 'fabuhuifir2left'}}" bindtap='preview' data-pic-src="{{item.fir2}}"></view>
+        <view class="fabuhuisec1" bindtap='preview' data-pic-src="{{item.sec1}}"></view>
+        <view class="fabuhuisec2" bindtap='preview' data-pic-src="{{item.sec2}}"></view>
+        <view class="fabuhuisec3" bindtap='preview' data-pic-src="{{item.sec3}}"></view>
       </view>
     </view>
   </view>
