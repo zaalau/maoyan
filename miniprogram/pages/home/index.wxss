@@ -33,32 +33,8 @@
 .homeBottom {
   background-size: 100% 100%;
   width: 750rpx;
-  height: 613rpx;
+  height: 617rpx;
   position: relative;
-}
-.qiyewenhua {
-  position: absolute;
-  top: 260rpx;
-  left: 50rpx;
-  width: 180rpx;
-  height: 110rpx;
-  border-radius:60rpx;
-}
-.qiyewenhua2 {
-  position: absolute;
-  top: 260rpx;
-  left: 282rpx;
-  width: 180rpx;
-  height: 110rpx;
-  border-radius:60rpx;
-}
-.qiyewenhua3 {
-  position: absolute;
-  top: 260rpx;
-  left: 510rpx;
-  width: 180rpx;
-  height: 110rpx;
-  border-radius:60rpx;
 }
 .kaiping {
   background-size: 100% 100%;
@@ -67,4 +43,15 @@
   top: 0;
   left: 0;
   z-index: 100;
+}
+.swiperContainerBottom {
+  position: absolute;
+  top: 270rpx;
+  width: 750rpx;
+  height: 140rpx;
+  background-color: #fff;
+}
+.swiperitem2 {
+  width: 750rpx;
+  height: 140rpx;
 }

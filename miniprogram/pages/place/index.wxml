@@ -15,6 +15,9 @@
       <view class="aotiitem">杭州网球中心</view>
       <view class="chooseline2" wx:if="{{whosbeenchoosed==='aoti'}}"></view>
     </view>
+    <view class="{{whosbeenchoosed==='lipin'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='lipin'>礼品定制
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='lipin'}}"></view>
+    </view>
   </view>
   <view class="changdibottom" wx:for="{{changdiData}}" wx:for-item="item" wx:for-index="index" wx:key="index" wx:if="{{whosbeenchoosed===item.pagename}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/changdibottombg.webp?sign=deea1b15893d06d843707a581002bbec&t=1701677901');">
     <view class="textContainer" style="background-image: url({{item.textsrc}});"></view>

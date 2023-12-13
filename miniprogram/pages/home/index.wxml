@@ -9,12 +9,17 @@
   <view class="homeBtnContainer" style="background-image:url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/homeBtnContainer.jpg?sign=8749777e3414d5d4b78444e5a98244ef&t=1701429350');">
     <view class="navigateBtn" wx:for="{{navigateBtn}}" wx:for-item='item' wx:for-index='index' wx:key='index' style="background-image: url({{item.picSrc}});" data-pageurl="{{item.toPage}}" bindtap='toPage'></view>
   </view>
-  <view class="homeBottom" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/aboutus.jpg?sign=f8afd0eddd12f1048e75d569b0b17079&t=1701530581');">
-  <view class="qiyewenhua" bindtap="preview" data-pic-src="https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/gongyi3.jpg?sign=ed9b654aad064ab3a22eedea5e6d5848&t=1701531461"></view>
-  <view class="qiyewenhua2" bindtap="preview" data-pic-src="https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/gongyi1.jpg?sign=60d293f4e1726e3d3a99e6d9e0b309c3&t=1701531312"></view>
-  <view class="qiyewenhua3" bindtap="preview" data-pic-src="https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/gongyi2.jpg?sign=376c09aa569c3abcc6cdfa79aff7a0bc&t=1701531436"></view>
+  <view class="homeBottom" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/homebottom.webp?sign=6c22352fbc5492f8e63443c2e2638f05&t=1702453996');">
+    <swiper class="swiperContainerBottom" autoplay="{{true}}" indicator-dots='{{false}}'>
+    <swiper-item wx:for="{{swiperItem2}}" wx:for-item="swiperitem" wx:for-index="swiperindex" wx:key="swiperindex">
+      <image class="swiperitem2" src="{{swiperitem.src}}" mode=""/>
+    </swiper-item>
+  </swiper>
+  
+  
   
   </view>
+  
   
 
 </view>

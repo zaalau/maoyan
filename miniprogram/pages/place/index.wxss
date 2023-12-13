@@ -14,7 +14,7 @@
 }
 .choosedBtn {
   background-color: #9f0101;
-  width: 165rpx;
+  width: 140rpx;
   height: 58rpx;
   display: flex;
   align-items: center;
@@ -28,7 +28,7 @@
   padding: 5rpx 0;
   box-sizing: border-box;
   background-color: #9f0101;
-  width: 165rpx;
+  width: 140rpx;
   height: 58rpx;
   border-radius: 10rpx;
   font-size: 22rpx;
@@ -37,7 +37,7 @@
 }
 .unchooseBtn {
   background-color: #d26a0e;
-  width: 165rpx;
+  width: 140rpx;
   height: 58rpx;
   display: flex;
   align-items: center;

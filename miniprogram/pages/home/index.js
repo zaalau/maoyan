@@ -62,11 +62,28 @@ Page({
       },
       {
         areaName:'合作场地',
-        picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/changdiBtn.jpg?sign=8dd9276c2d0444d616cb202ead6d02f4&t=1701430076',
+        picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/hezuoButton.webp?sign=2a21643144695500eda8ab2650a6f382&t=1702455222',
         toPage:'place'
       },
       
     ],
+    swiperItem2:[
+      {
+        src:"https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII1.webp?sign=5a4fd85fca2f9fc2f56ec18c8f8eb56c&t=1702455429"
+      },
+      {
+        src:"https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII2.webp?sign=ba8c00dff1f87a9745fd0ccf3ea59bed&t=1702455436"
+      },
+      {
+        src:"https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII3.webp?sign=1a61223c80eeb298aa5b3e2869f2fa60&t=1702455441"
+      },
+      {
+        src:"https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII4.webp?sign=84e7656c5381deea50a1b5f04ad04ccc&t=1702455447"
+      },
+      {
+        src:"https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII5.webp?sign=a673d9cfff476d4265603717cf8b2152&t=1702455454"
+      },
+    ]
     
   },
   preview(e) {
