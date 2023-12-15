@@ -28,6 +28,11 @@ Page({
         textsrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/aotitext.webp?sign=831ba22986805edbee58d22467d28f42&t=1701680659',
         picsrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/aotipic.webp?sign=b3988433b07a093ac1d4582bbd6161a6&t=1701680668'
       },
+      {
+        pagename:'lipin',
+        textsrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lipintext.webp?sign=0796793bbb2308595381e1a3e36a8e77&t=1702531655',
+        picsrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lipinpic.webp?sign=2bf647658a809a88ba46f5386044067b&t=1702531604'
+      },
     ]
   },
   preview(e) {
