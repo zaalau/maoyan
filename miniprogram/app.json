@@ -1,9 +1,9 @@
 {
   "pages": [
     "pages/home/index",
+    "pages/video/index",
     "pages/activity/index",
     "pages/conference/index",
-    "pages/video/index",
     "pages/live/index",
     "pages/miniP/index",
     "pages/place/index",

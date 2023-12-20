@@ -51,7 +51,7 @@
   padding: 5rpx 0;
   box-sizing: border-box;
   background-color: #d26a0e;
-  width: 165rpx;
+  width: 140rpx;
   height: 58rpx;
   border-radius: 10rpx;
   font-size: 22rpx;
@@ -73,7 +73,7 @@
   background-color: #9f0101;
   position: absolute;
   bottom: -15rpx;
-  left: 40rpx;
+  left: 25rpx;
 }
 .aotiitem {
   margin: 0 auto;
@@ -87,6 +87,13 @@
   padding: 40rpx 50rpx;
   box-sizing: border-box;
 }
+.changdibottom4 {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 2150rpx;
+  padding: 40rpx 50rpx;
+  box-sizing: border-box;
+}
 .textContainer {
   background-size: 100% 100%;
   width: 650rpx;
@@ -96,4 +103,18 @@
   background-size: 100% 100%;
   width: 650rpx;
   height: 925rpx;
+}
+
+.picContainer2 {
+  background-size: 100% 100%;
+  width: 650rpx;
+  height: 1500rpx;
+}
+.swiperContainer {
+  width: 650rpx;
+  height: 343rpx;
+}
+.swiperitem {
+  width: 650rpx;
+  height: 343rpx;
 }

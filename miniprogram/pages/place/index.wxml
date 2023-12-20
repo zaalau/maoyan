@@ -10,7 +10,7 @@
     <view class="{{whosbeenchoosed==='baijinhanjue'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='baijinhanjue'>白金汉爵酒店
       <view class="chooseline" wx:if="{{whosbeenchoosed==='baijinhanjue'}}"></view>
     </view>
-    <view class="{{whosbeenchoosed==='aoti'? 'choosedBtn2' : 'unchooseBtn2'}}" bindtap='switchPage' data-pagename='aoti'> 
+    <view class="{{whosbeenchoosed==='aoti'? 'choosedBtn2' : 'unchooseBtn2'}}" bindtap='switchPage' data-pagename='aoti'>
       <view class="aotiitem">杭州奥体中心</view>
       <view class="aotiitem">杭州网球中心</view>
       <view class="chooseline2" wx:if="{{whosbeenchoosed==='aoti'}}"></view>
@@ -19,10 +19,21 @@
       <view class="chooseline" wx:if="{{whosbeenchoosed==='lipin'}}"></view>
     </view>
   </view>
-  <view class="changdibottom" wx:for="{{changdiData}}" wx:for-item="item" wx:for-index="index" wx:key="index" wx:if="{{whosbeenchoosed===item.pagename}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/changdibottombg.webp?sign=deea1b15893d06d843707a581002bbec&t=1701677901');">
-    <view class="textContainer" style="background-image: url({{item.textsrc}});"></view>
-    <view class="picContainer" bindtap='preview' data-pic-src="{{item.picsrc}}" style="background-image: url({{item.picsrc}});"></view>
-  
-  
+  <view class="changdibottom changdibottom{{index}}" wx:for="{{changdiData}}" wx:for-item="item" wx:for-index="index" wx:key="index" wx:if="{{whosbeenchoosed===item.pagename}}" style="background-image: url({{item.bgsrc}});">
+    <view wx:if="{{item.pagename!='lipin'}}">
+      <view class="textContainer" style="background-image: url({{item.textsrc}});"></view>
+      <view class="picContainer" bindtap='preview' data-pic-src="{{item.picsrc}}" style="background-image: url({{item.picsrc}});"></view>
+    </view>
+    <view wx:if="{{item.pagename==='lipin'}}">
+      <view class="textContainer" style="background-image: url({{item.textsrc}});"></view>
+      <swiper class="swiperContainer" autoplay="{{true}}" indicator-dots='{{false}}'>
+        <swiper-item wx:for="{{item.swiperItem}}" wx:for-item="swiperItem" wx:for-index="swiperIndex" wx:key="swiperIndex">
+          <image class="swiperitem" src="{{swiperItem.src}}" mode="" />
+        </swiper-item>
+      </swiper>
+      <view class="picContainer2" bindtap='preview' data-pic-src="{{item.picsrc}}" style="background-image: url({{item.picsrc}});"></view>
+    </view>
+
+
   </view>
 </view>

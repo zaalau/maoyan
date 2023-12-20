@@ -16,7 +16,7 @@
     <view class="huodongItem" wx:for="{{huodongData.huodongItem}}" wx:for-item="item" wx:for-index="index" wx:key="index" >
       <view class="huodongTitle" style="background-image: url({{item.title}});"></view>
       <view class="videoItem" wx:for="{{item.mp4item}}" wx:for-item="mp4Item" wx:for-index="mp4Index" wx:key="mp4Index">
-        <view class="smallTitle{{mp4Index}}" style="background-image: url({{mp4Item.title}});"></view>
+        <view class="smallTitle{{index}}{{mp4Index}}" style="background-image: url({{mp4Item.title}});"></view>
         <channel-video class="mp4" binderror="xx" feed-token="{{mp4Item.feedId}}" finder-user-name="{{mp4Item.finderUserName}}"/>
       </view>
     </view>
