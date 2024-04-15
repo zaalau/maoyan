@@ -11,6 +11,9 @@
     <view class="{{whosbeenchoosed==='xuanchuan'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='xuanchuan'>宣传片制作
       <view class="chooseline" wx:if="{{whosbeenchoosed==='xuanchuan'}}"></view>
     </view>
+    <view class="{{whosbeenchoosed==='duanshipin'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='duanshipin'>短视频
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='duanshipin'}}"></view>
+    </view>
   </view>
   <view class="huodongContainer" wx:if="{{whosbeenchoosed==='huodong'}}" style="background-image: url({{huodongData.bg}});">
     <view class="huodongItem" wx:for="{{huodongData.huodongItem}}" wx:for-item="item" wx:for-index="index" wx:key="index" >
@@ -36,6 +39,15 @@
       <view class="videoItem" wx:for="{{xuanchuanitem.mp4item}}" wx:for-item="xuanchuanmp4Item" wx:for-index="xuanchuanmp4Index" wx:key="xuanchuanmp4Index">
         <view class="xuanchuansmallTitle{{xuanchuanindex}}{{xuanchuanmp4Index}}" style="background-image: url({{xuanchuanmp4Item.title}});"></view>
         <channel-video class="mp4" feed-token="{{xuanchuanmp4Item.feedId}}" finder-user-name="{{xuanchuanmp4Item.finderUserName}}"/>
+      </view>
+    </view>
+  </view>
+  <view class="huodongContainer" wx:if="{{whosbeenchoosed==='duanshipin'}}" style="background-image: url({{duanshipinData.bg}});">
+    <view class="huodongItem" wx:for="{{duanshipinData.duanshipinItem}}" wx:for-item="dspitem" wx:for-index="dspindex" wx:key="dspindex" >
+      <view class="huodongTitle" style="background-image: url({{dspitem.title}});"></view>
+      <view class="videoItem" wx:for="{{dspitem.mp4item}}" wx:for-item="dspmp4Item" wx:for-index="dspmp4Index" wx:key="dspmp4Index">
+        <view class="dspsmallTitle{{dspindex}}{{dspmp4Index}}" style="background-image: url({{dspmp4Item.title}});"></view>
+        <channel-video class="mp4" binderror="xx" feed-token="{{dspmp4Item.feedId}}" finder-user-name="{{dspmp4Item.finderUserName}}"/>
       </view>
     </view>
   </view>

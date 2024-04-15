@@ -17,7 +17,7 @@
 }
 .choosedBtn {
   background-color: #9f0101;
-  width: 200rpx;
+  width: 175rpx;
   height: 48rpx;
   display: flex;
   align-items: center;
@@ -29,7 +29,7 @@
 }
 .unchooseBtn {
   background-color: #d26a0e;
-  width: 200rpx;
+  width: 175rpx;
   height: 48rpx;
   display: flex;
   align-items: center;
@@ -49,9 +49,10 @@
 }
 .huodongContainer {
   background-size: 100% 100%;
+  /* background-repeat: repeat; */
   width: 750rpx;
   min-height: 1352rpx;
-  padding-bottom: 30rpx;
+  padding: 50rpx 0;
   box-sizing: border-box;
   
 }
@@ -95,70 +96,7 @@
   height: 25rpx;
   margin-bottom: 10rpx;
 }
-.smallTitle04 {
-  background-size: 100% 100%;
-  width: 262rpx;
-  margin-top: 30rpx;
-  margin-bottom: 10rpx;
-  height: 30rpx;
-}
-.smallTitle05 {
-  background-size: 100% 100%;
-  margin-top: 30rpx;
-  width: 193rpx;
-  height: 30rpx;
-  margin-bottom: 10rpx;
-}
-.smallTitle06 {
-  background-size: 100% 100%;
-  margin-top: 30rpx;
-  width: 263rpx;
-  height: 30rpx;
-  margin-bottom: 10rpx;
-}
-.smallTitle07 {
-  background-size: 100% 100%;
-  margin-top: 30rpx;
-  width: 193rpx;
-  height: 30rpx;
-  margin-bottom: 10rpx;
-}
-.smallTitle08 {
-  background-size: 100% 100%;
-  width: 151rpx;
-  height: 25rpx;
-  margin-top: 30rpx;
-  margin-bottom: 10rpx;
-}
-.smallTitle09 {
-  background-size: 100% 100%;
-  width: 206rpx;
-  height: 26rpx;
-  margin-top: 30rpx;
-  margin-bottom: 10rpx;
-}
-.smallTitle010 {
-  background-size: 100% 100%;
-  width: 172rpx;
-  height: 26rpx;
-  margin-top: 30rpx;
-  margin-bottom: 10rpx;
-}
-.smallTitle011 {
-  background-size: 100% 100%;
-  width: 266rpx;
-  height: 26rpx;
-  margin-top: 30rpx;
-  margin-bottom: 10rpx;
-}
-.smallTitle10 {
-  background-size: 100% 100%;
-  width: 193rpx;
-  height: 24rpx;
-  margin-top: 30rpx;
-  margin-bottom: 10rpx;
-}
-.smallTitle11 {
+.smallTitle10{
   background-size: 100% 100%;
   width: 90rpx;
   height: 24rpx;
@@ -250,15 +188,8 @@
   text-align: center;
   box-sizing: border-box;
 }
+
 .xuanchuanTitle4 {
-  background-size: 100% 100%;
-  width: 380rpx;
-  height: 55rpx;
-  margin: 0 auto 30rpx;
-  text-align: center;
-  box-sizing: border-box;
-}
-.xuanchuanTitle5 {
   background-size: 100% 100%;
   width: 380rpx;
   height: 55rpx;
@@ -312,19 +243,35 @@
   margin-bottom: 10rpx;
 
 }
-.xuanchuansmallTitle40 {
-  background-size: 100% 100%;
-  margin-top: 30rpx;
-  width: 112rpx;
-  height: 24rpx;
-  margin-bottom: 10rpx;
 
-}
-.xuanchuansmallTitle50 {
+.xuanchuansmallTitle40 {
   background-size: 100% 100%;
   margin-top: 30rpx;
   width: 284rpx;
   height: 24rpx;
   margin-bottom: 10rpx;
+
+}
+.dspsmallTitle00 {
+  background-size: 100% 100%;
+  width: 304rpx;
+  height: 30rpx;
+  margin: 10rpx 0;
+
+
+}
+.dspsmallTitle01 {
+  background-size: 100% 100%;
+  width: 181rpx;
+  height: 30rpx;
+  margin: 20rpx 0 10rpx;
+
+
+}
+.dspsmallTitle02 {
+  background-size: 100% 100%;
+  width: 113rpx;
+  height: 30rpx;
+  margin: 20rpx 0 10rpx;
 
 }

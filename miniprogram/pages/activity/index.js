@@ -72,6 +72,15 @@ Page({
         sec2: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/kaiyesec2-3.webp?sign=6190ab13506955105e631250862301b0&t=1701790861',
         sec3: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/kaiyesec3-3.webp?sign=e3dbb7581878db6b9534724c20a14883&t=1701790869',
       },
+      {
+        type: 'left',
+        bg: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/yybg.jpg?sign=ce2d0d2359e70ff7d4633585ffab8332&t=1711959530',
+        bigPic:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/yybp.webp?sign=35913954e788893c166ce554986b575b&t=1711958525',
+        fir2:"https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/yyfir2.webp?sign=3886f1ec2b72b7ddd1e40587bc391c76&t=1711958515",
+        sec1: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/yysec1.webp?sign=b760778718f3fdeee9e9003cf7f4fd99&t=1711958534',
+        sec2: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/yysec2.webp?sign=8cf0fad4237990c5396b407aa579907d&t=1711958542',
+        sec3: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/yysec3.webp?sign=514f4db216df4b347ccb5307d5307c59&t=1711958551',
+      },
       
       
       
@@ -112,6 +121,24 @@ Page({
         sec1: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/wanhuisec1-4.webp?sign=4d1a50a6a8faace39d73959b41cd16ef&t=1701791848',
         sec2: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/wanhuisec2-4.webp?sign=76f3a1b354c6ecf5f7b567ed69b9efb0&t=1701791854',
         sec3: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/wanhuisec3-4.webp?sign=e02bf0de8268642240ee5630e31875e0&t=1701791860',
+      },
+      {
+        type: 'right',
+        bg: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/wczdbg2.jpg?sign=e4d9fe5fd0cbb70e44bee131009963a6&t=1711959584',
+        bigPic:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/wczdbp.webp?sign=abd3b5902ef9770b7f097df35cde7ff8&t=1711958219',
+        fir2:"https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/wczdfir2.webp?sign=a7827b4bf39a020da64932362ce8e60b&t=1711958246",
+        sec1: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/wczdsec1.webp?sign=88b2a32dd201cc88f929d1c36673cfa9&t=1711958256',
+        sec2: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/wczdsec2.webp?sign=de8ea422dca92cf289fbba082f4cbab6&t=1711958264',
+        sec3: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/wczdsec3.webp?sign=b0a384aa2bd79d0509a858ca28632456&t=1711958272',
+      },
+      {
+        type: 'left',
+        bg: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/nvqinianhuibc.jpg?sign=2e0a3983b19af9eaa490b88611403681&t=1711957792',
+        bigPic:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/nqbp.webp?sign=5309e5abf9ff7b895c21fafa476720d4&t=1711957953',
+        fir2:"https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/nqfir2.webp?sign=662093681f9f33242eb6681e4e58f21e&t=1711957967",
+        sec1: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/nqsec1.webp?sign=8ef8b6a95ed912d46840115f37c5e18c&t=1711957980',
+        sec2: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/nqsec2.webp?sign=d9fb6c52ccec14d4588d24983706dfc7&t=1711957987',
+        sec3: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/nqsec3.webp?sign=e1135e6c1cd5f634fb503466a66eb609&t=1711957996',
       },
     ],
     yanlianData:[

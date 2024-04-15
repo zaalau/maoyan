@@ -34,63 +34,12 @@ Page({
               finderUserName:'sphpnCphXwj3q7h',
               feedId:'token/A6V3d2'
             },
-            {
-              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E8%A7%86%E9%A2%91-05%20%E6%8B%B7%E8%B4%9D.webp?sign=7f6b2b2ded1613161a11a837eaf27112&t=1701784062',
-              finderUserName:'sphpnCphXwj3q7h',
-              feedId:'token/AijMjH'
-
-            },
-            
-            {
-              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/ylct.webp?sign=b18c971005bcd070bf5c3fc06480231e&t=1703044306',
-              finderUserName:'sphpnCphXwj3q7h',
-              feedId:'token/Aa8SGl'
-            },
-            {
-              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/ykzzldx.webp?sign=a7558374e57301f2c2197b29bbcb44e5&t=1703044463',
-              finderUserName:'sphpnCphXwj3q7h',
-              feedId:'token/A8iyd2'
-            },
-            {
-              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/mengxiangtx.webp?sign=a78c3a4968d73ad6aaf4300f3836408f&t=1703044572',
-              finderUserName:'sphpnCphXwj3q7h',
-              feedId:'token/A9FhzB'
-            },
-            {
-              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/liehuo.webp?sign=48f8dd8649b622f5f70215d97336251c&t=1702980392',
-              finderUserName:'sphpnCphXwj3q7h',
-              feedId:'token/AeLCHa'
-            },
-            {
-              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/weilainihao.webp?sign=b76c3c7c915ee213ef66aef8782352e6&t=1702980547',
-              finderUserName:'sphpnCphXwj3q7h',
-              feedId:'token/Abn21F'
-            },
-            {
-              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/dream.webp?sign=f1de0e1feedd2bc4137d9322b7e19401&t=1702980669',
-              finderUserName:'sphpnCphXwj3q7h',
-              feedId:'token/AXkjFa'
-            },
-            {
-              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/gqcs.webp?sign=0a71b3b9d1d726f29055242bbf555b3d&t=1702980756',
-              finderUserName:'sphpnCphXwj3q7h',
-              feedId:'token/AvDgxw'
-            },
-            
-            
-            
-            
           ]
         },
         {
           title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/meitongtitle.webp?sign=81696ccadab83fbc7eca606c492bcb91&t=1702980933',
           mp4item:[
-            {
-              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/wushi.webp?sign=1f63b674efda1eb80bbe8a2d448df067&t=1702980976',
-              finderUserName:'sphpnCphXwj3q7h',
-              feedId:'token/A5BrWc'
-
-            },
+            
             {
               title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/qdys.webp?sign=79e363a9ac347ce9fceb2d5fc61e4fc4&t=1702981286',
               finderUserName:'sphpnCphXwj3q7h',
@@ -174,7 +123,7 @@ Page({
             {
               title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/mlxfhxj.webp?sign=467be64228e5fa3dc1de50dabbdb706d&t=1703045056',
               finderUserName:'sphpnCphXwj3q7h',
-              feedId:'token/AelJYs'
+              feedId:'token/AsaHRN'
 
             },
             {
@@ -200,19 +149,7 @@ Page({
             
           ]
         },
-        {
-          title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/mywcy.webp?sign=d240da07fc57ea2de33e28d4313aaef7&t=1703045555',
-          mp4item:[
-            
-            {
-              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/mywcyxbt.webp?sign=dc06e5fe719a53eeed163d7dec2f91ff&t=1703045592',
-              finderUserName:'sphpnCphXwj3q7h',
-              feedId:'token/ALhKmC'
-
-            },
-            
-          ]
-        },
+        
         {
           title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/hzsw.webp?sign=7d226fdc2f115ea2d3af4194c25a001c&t=1703045696',
           mp4item:[
@@ -227,7 +164,36 @@ Page({
           ]
         },
       ]
-    }
+    },
+    duanshipinData:{
+      bg:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/videoBg.webp?sign=adc9e3d74959d8fd282cb8fae51d3ca9&t=1701760475',
+      duanshipinItem:[
+        { 
+          title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/fzsp.webp?sign=2bd4625541bff45006484314efc37b8b&t=1713167589',
+          mp4item:[
+            {
+              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/fzxcynywydj.webp?sign=d82003da3578ec85128a780d9a3e7dc4&t=1713167738',
+              finderUserName:'sphpnCphXwj3q7h',
+              feedId:'token/AxFcPWzyY'
+
+            },
+            {
+              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/wxbwbz.webp?sign=681d2fab0098699ce809b2f6b0f24366&t=1713167950',
+              finderUserName:'sphpnCphXwj3q7h',
+              feedId:'token/A4MmjHwsG'
+
+            },
+            {
+              title:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/cqj.webp?sign=6638f55f4eb946967ea8b8e0dda8df64&t=1713167981',
+              finderUserName:'sphpnCphXwj3q7h',
+              feedId:'token/ApuADgm1A'
+            },
+            
+          ]
+        },
+        
+      ]
+    },
   },
   xx(e) {
     console.log(e)
