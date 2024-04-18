@@ -1,11 +1,11 @@
 {
   "pages": [
     "pages/home/index",
+    "pages/miniP/index",
     "pages/video/index",
     "pages/activity/index",
     "pages/conference/index",
     "pages/live/index",
-    "pages/miniP/index",
     "pages/place/index",
     "pages/livenav/index"
   ],

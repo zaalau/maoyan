@@ -5,82 +5,37 @@ Page({
    * 页面的初始数据
    */
   data: {
-    minipData:[
-      
+    minipData: [
+
       {
-        title: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E6%A0%87%E9%A2%98%20%E6%8B%B7%E8%B4%9D.webp?sign=09f027105c54e9c9209cd827301b8dbf&t=1701794323',
-        bg: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/hzbg.webp?sign=22e1bea73fd571fe553ee96deb698bda&t=1701778150',
-        swiperItem:[
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231205193836%20%E6%8B%B7%E8%B4%9D.webp?sign=dd6593e0349488403017f28ebed536fa&t=1701779235'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231205193840%20%E6%8B%B7%E8%B4%9D.webp?sign=d4c8ab0c1333ec067ba7a95ea59069a2&t=1701779250'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231205193846%20%E6%8B%B7%E8%B4%9D.webp?sign=0d2f7b7cc2a921e80bcb95a27963ada5&t=1701779258'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231205193852%20%E6%8B%B7%E8%B4%9D.webp?sign=6e02f4bdc3fd0abcfd334bc056ba86a6&t=1701779265'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231205193857%20%E6%8B%B7%E8%B4%9D.webp?sign=4126b684d34f0a1d98d55c9ba6d4bfd4&t=1701779274'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231205193902%20%E6%8B%B7%E8%B4%9D.webp?sign=494e7bf43165ea1e2cebd34691cf7a51&t=1701779283'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231205193907%20%E6%8B%B7%E8%B4%9D.webp?sign=86b55c47b3e54da2e6744ca50333eecf&t=1701779290'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231205193912%20%E6%8B%B7%E8%B4%9D.webp?sign=8ad9b53874febf6a8c5fca3c5c27e04a&t=1701779304'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231205193918%20%E6%8B%B7%E8%B4%9D.webp?sign=c6e65dbeef5b9862da13fcf4cfe43fbc&t=1701779311'
-          },
-        ]
+        bg: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/minipzk.webp?sign=deb5e4074639f7ed1d3495f4c7de6d26&t=1713418387',
+        cover:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/aotipic.webp?sign=7915e9c68bb026b6d28b06bef8b1b2f0&t=1713419368',
+        finderUserName: 'sphpnCphXwj3q7h',
+        feedId: 'token/ApuADgm1A'
       },
       {
-        title: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E7%BB%84%2013%20%E6%8B%B7%E8%B4%9D.webp?sign=d2256c99537d0df3916eb1d5167a6b6c&t=1701794286',
-        bg: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkbg.webp?sign=5860cca0f1fef4aaac23deee2147cf2a&t=1701776645',
-        
-        swiperItem:[
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkzy.webp?sign=f15fef36e63f4a173d175338a533c6ff&t=1701777436'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkdsj.webp?sign=5242e881478da91acaaf5b100354811e&t=1701777445'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkbj.webp?sign=1cbbc1c679c043c110b6eab4138e2751&t=1701777452'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkmywish.webp?sign=61573ad0b20ba77c5a20c0e986cffefb&t=1701777458'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkzw.webp?sign=6d5f9f22bb9942263584a4a2fefbb4ee&t=1701777365'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkzb.webp?sign=bf99f1f74b02ce4e1dfdef12eecc20ea&t=1701777373'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkwish.webp?sign=71c7c7ce6c0a50269eb3e64e7c1c5ea5&t=1701777379'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkhc.webp?sign=6afe20dc193c79b0e5b56f8f798b8a7c&t=1701777386'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkdt.webp?sign=c744e0b45026da69b66e149064d8128e&t=1701777393'
-          },
-          {
-            src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/zkcj.webp?sign=97a5ff77d793e2957accce779814557f&t=1701777402'
-          },
-          
-        ]
+        bg: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/miniphd.webp?sign=6db12a54c22d45a1e9339978ce69f7ca&t=1713419728',
+        cover:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/aotipic.webp?sign=7915e9c68bb026b6d28b06bef8b1b2f0&t=1713419368',
+        finderUserName: 'sphpnCphXwj3q7h',
+        feedId: 'token/ApuADgm1A'
+      },
+      {
+        bg: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/minipnq.webp?sign=ae25851db28c471534cb2959ab4b49b5&t=1713419754',
+        cover:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/aotipic.webp?sign=7915e9c68bb026b6d28b06bef8b1b2f0&t=1713419368',
+        finderUserName: 'sphpnCphXwj3q7h',
+        feedId: 'token/ApuADgm1A'
+      },
+      {
+        bg: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/miniphz.webp?sign=95a85f0349406baed5b413e464f7a378&t=1713419740',
+        cover:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/aotipic.webp?sign=7915e9c68bb026b6d28b06bef8b1b2f0&t=1713419368',
+        finderUserName: 'sphpnCphXwj3q7h',
+        feedId: 'token/ApuADgm1A'
       }
     ]
   },
-
+  xx(e) {
+    console.log(e)
+  },
   /**
    * 生命周期函数--监听页面加载
    */

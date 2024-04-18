@@ -33,7 +33,7 @@
 .homeBottom {
   background-size: 100% 100%;
   width: 750rpx;
-  height: 617rpx;
+  height: 406rpx;
   position: relative;
 }
 .kaiping {
@@ -46,7 +46,7 @@
 }
 .swiperContainerBottom {
   position: absolute;
-  top: 270rpx;
+  top: 95rpx;
   width: 750rpx;
   height: 140rpx;
   background-color: #fff;
@@ -54,4 +54,21 @@
 .swiperitem2 {
   width: 750rpx;
   height: 140rpx;
+}
+.videoTitle {
+  width: 750rpx;
+  height: 98rpx;
+  background-size: 100% 100%;
+}
+.mp4Container {
+  position: relative;
+  width: 750rpx;
+  height: 300rpx;
+}
+.mp4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 300rpx;
 }

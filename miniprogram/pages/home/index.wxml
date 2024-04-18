@@ -6,10 +6,14 @@
       <image class="swiperitem" src="{{swiperItem.src}}" mode=""/>
     </swiper-item>
   </swiper>
-  <view class="homeBtnContainer" style="background-image:url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/homeBtnContainer.jpg?sign=8749777e3414d5d4b78444e5a98244ef&t=1701429350');">
+  <view class="homeBtnContainer" style="background-image:url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/homeBtnContainer.jpg?sign=3aa4ae7924bf9d6adfd671e31d1053aa&t=1713255357');">
     <view class="navigateBtn" wx:for="{{navigateBtn}}" wx:for-item='item' wx:for-index='index' wx:key='index' style="background-image: url({{item.picSrc}});" data-pageurl="{{item.toPage}}" bindtap='toPage'></view>
   </view>
-  <view class="homeBottom" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/homebottom.webp?sign=6c22352fbc5492f8e63443c2e2638f05&t=1702453996');">
+  <view class="videoTitle" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E4%BC%81%E4%B8%9A%E5%AE%A3%E4%BC%A0%E7%89%87%20%E6%8B%B7%E8%B4%9D.webp?sign=5d100d055f084a3c1565d9b2188c34ee&t=1713255884');"></view>
+  <view class="mp4Container">
+    <channel-video class="mp4" binderror="xx" feed-token="{{feedId}}" finder-user-name="{{finderUserName}}"/>
+  </view>
+  <view class="homeBottom" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E4%BC%81%E4%B8%9A%E6%96%87%E5%8C%96.webp?sign=962727ad12ef7c628eff7fc903e55f12&t=1713255605');">
     <swiper class="swiperContainerBottom" autoplay="{{true}}" indicator-dots='{{false}}'>
     <swiper-item wx:for="{{swiperItem2}}" wx:for-item="swiperitem" wx:for-index="swiperindex" wx:key="swiperindex">
       <image class="swiperitem2" src="{{swiperitem.src}}" mode=""/>
