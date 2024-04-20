@@ -120,6 +120,12 @@
   width: 650rpx;
   height: 1276rpx;
 }
+.contactBc {
+  width: 750rpx;
+  height: 465rpx;
+  background-color: #434658;
+
+}
 .contactUs {
   background-size: 100% 100%;
   width: 750rpx;
@@ -150,6 +156,10 @@
   box-sizing: border-box;
   font-size: 24rpx;
   text-align: center;
+  z-index: 1000;
+  background-color: #ffffff00
+
+
 }
 .companyContainer {
   width: 600rpx;
@@ -167,6 +177,10 @@
   box-sizing: border-box;
   font-size: 24rpx;
   text-align: center;
+  z-index: 1000;
+  background-color: #ffffff00
+
+
 }
 .numContainer {
   width: 600rpx;
@@ -184,10 +198,35 @@
   box-sizing: border-box;
   font-size: 24rpx;
   text-align: center;
+  z-index: 1000;
+  background-color: #ffffff00
+
+
 }
 .cuBtn {
   background-size: 100% 100%;
   width: 250rpx;
   height: 59rpx;
   margin: 40rpx auto 0;
+  z-index: 1000;
+
+}
+.topVideo {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 513rpx;
+  padding: 130rpx 0 0 0;
+  box-sizing: border-box;
+}
+.mp4Container {
+  position: relative;
+  width: 750rpx;
+  height: 300rpx;
+}
+.mp4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 300rpx;
 }

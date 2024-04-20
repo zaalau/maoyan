@@ -103,8 +103,9 @@ Page({
   toPage(e) {
     wx.vibrateShort()
     const url = e.target.dataset.pageurl
+    const { ifSetInfo } = this.data
     wx.navigateTo({
-      url: `../${url}/index`,
+      url: `../${url}/index?ifSetInfo=${ifSetInfo}`,
     })
   },
   ifshowkaiping() {
@@ -116,6 +117,20 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    wx.cloud.callFunction({
+      name: 'homeInit',
+      success: res => {
+        console.log(res)        
+        const { ifSetInfo } = res.result.data.user
+        this.setData({
+          ifSetInfo
+        })
+
+      },
+      fail: (err) => {
+        console.error(err);
+      }
+    });
     wx.showLoading({
       title: '加载中',
     })
@@ -131,6 +146,7 @@ Page({
         kaiping: false
       })
     }, 3000);
+
   },
 
   /**
@@ -144,7 +160,20 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
+    wx.cloud.callFunction({
+      name: 'homeInit',
+      success: res => {
+        console.log(res)        
+        const { ifSetInfo } = res.result.data.user
+        this.setData({
+          ifSetInfo
+        })
 
+      },
+      fail: (err) => {
+        console.error(err);
+      }
+    });
   },
 
   /**

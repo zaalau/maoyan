@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/activity/index",
     "pages/home/index",
+    "pages/activity/index",
     "pages/miniP/index",
     "pages/video/index",
     "pages/conference/index",

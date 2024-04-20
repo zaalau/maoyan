@@ -1,7 +1,7 @@
 /* pages/video/index.wxss */
 .videoContainer {
   width: 750rpx;
-  
+  position: relative;
 }
 
 
@@ -274,5 +274,96 @@
   width: 113rpx;
   height: 30rpx;
   margin: 20rpx 0 10rpx;
+
+}
+.contactBc {
+  width: 750rpx;
+  height: 465rpx;
+  background-color: #434658;
+
+}
+.contactUs {
+  background-size: 100% 100%;
+  width: 750rpx;
+  height: 505rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+.nameContainer {
+  width: 600rpx;
+  margin: 140rpx auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.inputTitle {
+  background-size: 100% 100%;
+  width: 160rpx;
+  height: 42rpx;
+}
+.nameInput {
+  width: 430rpx;
+  margin-left: 10rpx;
+  border-bottom: 2rpx solid #434658a2;
+  padding: 5rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  text-align: center;
+  z-index: 1000;
+  background-color: #ffffff00
+
+
+}
+.companyContainer {
+  width: 600rpx;
+  margin: 30rpx auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.companyInput {
+  width: 430rpx;
+  margin-left: 10rpx;
+  border-bottom: 2rpx solid #434658a2;
+  padding: 5rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  text-align: center;
+  z-index: 1000;
+  background-color: #ffffff00
+
+
+}
+.numContainer {
+  width: 600rpx;
+  margin: 30rpx auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.numInput {
+  width: 430rpx;
+  margin-left: 10rpx;
+  border-bottom: 2rpx solid #434658a2;
+  padding: 5rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  text-align: center;
+  z-index: 1000;
+  background-color: #ffffff00
+
+
+}
+.cuBtn {
+  background-size: 100% 100%;
+  width: 250rpx;
+  height: 59rpx;
+  margin: 40rpx auto 0;
+  z-index: 1000;
 
 }

@@ -36,4 +36,22 @@
       </view>
     </view>
   </view>
+
+  <view class="contactBc" hidden="{{ifSetInfo==='true'}}"></view>
+  <view class="contactUs" hidden="{{ifSetInfo==='true'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cubg.webp?sign=bcc4c870273e95192fcc981d32326f1a&t=1713517771');">
+    <view class="nameContainer">
+      <view class="inputTitle" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cuname.webp?sign=6c653920e4a7579fd35d65667c816ea4&t=1713518096');"></view>
+      <input bindinput="setInputValue" value="{{nameT}}" data-keyname="nameT" type="text" class="nameInput"/>
+    </view>
+    <view class="companyContainer">
+      <view class="inputTitle" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cucompany.webp?sign=eb9f5c31bc5b4a54370209708c79b13d&t=1713518546');"></view>
+      <input bindinput="setInputValue" value="{{companyT}}" data-keyname="companyT" type="text" class="companyInput"/>
+    </view>
+    <view class="numContainer">
+      <view class="inputTitle" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cunum.webp?sign=a4141fa4e293c2a91f2e8b3aedc6df17&t=1713518681');"></view>
+      <input bindinput="setInputValue" value="{{numT}}" maxlength="11" data-keyname="numT" type="number" class="numInput"/>
+    </view>
+    <view class="cuBtn" bindtap='updateInfo' style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cutjbtn.webp?sign=e1f0d4fc38163dc3c505be8011a2acff&t=1713518755');"></view>
+
+  </view>
 </view>

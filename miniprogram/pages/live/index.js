@@ -103,12 +103,62 @@ Page({
       whosbeenchoosed: pagename
     })
   },
+
+  setInputValue(e) {
+    const keyname = e.currentTarget.dataset.keyname || e.target.dataset.keyname
+    this.setData({
+      [keyname]: e.detail.value.trim()
+    })
+  },
+  updateInfo() {
+    wx.vibrateShort()
+    wx.showLoading()
+    const { nameT, companyT, numT } = this.data
+    console.log(nameT, companyT, numT)
+    if( nameT!=''&&nameT!=undefined&&companyT!=''&&companyT!=undefined&&numT!=''&&numT!=undefined){
+      wx.cloud.callFunction({
+        name: 'updateInfo',
+        data: {
+          nameT,
+          companyT,
+          numT
+        },
+        success: res => {
+          wx.hideLoading()
+          console.log(res)        
+          wx.showToast({
+            title: '提交成功',
+          })
+          this.setData({
+            nameT:'',
+            companyT:'',
+            numT:'',
+            ifSetInfo: 'true'
+          })
+        },
+        fail: (err) => {
+          wx.hideLoading()
+          console.error(err);
+        }
+      });
+      
+    }else {
+      wx.showToast({
+        title: '请完整填写',
+        icon: 'error'
+      })
+    }
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
     wx.showLoading({
       title: '加载中',
+    })
+    const { ifSetInfo } = options
+    this.setData({
+      ifSetInfo
     })
     wx.getSystemInfo({
       success: res => {

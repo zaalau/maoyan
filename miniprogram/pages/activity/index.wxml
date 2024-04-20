@@ -15,6 +15,11 @@
     </view>
   </view>
   <view class="fabuhuiContainer" wx:if="{{whosbeenchoosed==='fabuhui'}}">
+    <view class="topVideo" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/topvFBH.webp?sign=d729e3be8760972ced0292be26b0a997&t=1713605939');">
+      <view class="mp4Container">
+        <channel-video class="mp4" binderror="xx" feed-token="token/ApuADgm1A" finder-user-name="sphpnCphXwj3q7h" />
+      </view>
+    </view>
     <view wx:for="{{fabuhuiData}}" wx:for-item="item" wx:for-index="index" wx:key="index">
       <view class="fabuhuiItem" style="background-image: url({{item.bg}});">
         <view class="{{item.type==='right'? 'fabuhuiBigPicright' : 'fabuhuiBigPicleft'}}" bindtap='preview' data-pic-src="{{item.bigPic}}"></view>
@@ -26,6 +31,11 @@
     </view>
   </view>
   <view class="kaiyeContainer" wx:if="{{whosbeenchoosed==='kaiye'}}">
+    <view class="topVideo" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/topvKYQD.webp?sign=384b20af18493d6394f3420a918e5e00&t=1713606287');">
+      <view class="mp4Container">
+        <channel-video class="mp4" binderror="xx" feed-token="token/ApuADgm1A" finder-user-name="sphpnCphXwj3q7h" />
+      </view>
+    </view>
     <view wx:for="{{kaiyeData}}" wx:for-item="kaiyeitem" wx:for-index="kaiyeindex" wx:key="kaiyeindex">
       <view class="fabuhuiItem" style="background-image: url({{kaiyeitem.bg}});">
         <view class="{{kaiyeitem.type==='right'? 'fabuhuiBigPicright' : 'fabuhuiBigPicleft'}}" bindtap='preview' data-pic-src="{{kaiyeitem.bigPic}}"></view>
@@ -37,6 +47,11 @@
     </view>
   </view>
   <view class="wanhuiContainer" wx:if="{{whosbeenchoosed==='wanhui'}}">
+    <view class="topVideo" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/topvWH.webp?sign=d414e691bacf03775dbd35c60e8a4617&t=1713606312');">
+      <view class="mp4Container">
+        <channel-video class="mp4" binderror="xx" feed-token="token/ApuADgm1A" finder-user-name="sphpnCphXwj3q7h" />
+      </view>
+    </view>
     <view wx:for="{{wanhuiData}}" wx:for-item="wanhuiitem" wx:for-index="wanhuiindex" wx:key="wanhuiindex">
       <view class="fabuhuiItem" style="background-image: url({{wanhuiitem.bg}});">
         <view class="{{wanhuiitem.type==='right'? 'fabuhuiBigPicright' : 'fabuhuiBigPicleft'}}" bindtap='preview' data-pic-src="{{wanhuiitem.bigPic}}"></view>
@@ -51,6 +66,11 @@
     </view>
   </view>
   <view class="yanlianContainer" wx:if="{{whosbeenchoosed==='yanlian'}}">
+    <view class="topVideo" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/topvYL.webp?sign=38a17bf52b4eacc2f5a6361d3d4c41db&t=1713606331');">
+      <view class="mp4Container">
+        <channel-video class="mp4" binderror="xx" feed-token="token/ApuADgm1A" finder-user-name="sphpnCphXwj3q7h" />
+      </view>
+    </view>
     <view wx:for="{{yanlianData}}" wx:for-item="yanlianitem" wx:for-index="yanlianindex" wx:key="yanlianindex">
       <view class="fabuhuiItem" style="background-image: url({{yanlianitem.bg}});">
         <view class="{{yanlianitem.type==='right'? 'fabuhuiBigPicright' : 'fabuhuiBigPicleft'}}" bindtap='preview' data-pic-src="{{yanlianitem.bg}}"></view>
@@ -61,20 +81,21 @@
       </view>
     </view>
   </view>
-  <view class="contactUs" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cubg.webp?sign=bcc4c870273e95192fcc981d32326f1a&t=1713517771');">
+  <view class="contactBc" hidden="{{ifSetInfo==='true'}}"></view>
+  <view class="contactUs" hidden="{{ifSetInfo==='true'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cubg.webp?sign=bcc4c870273e95192fcc981d32326f1a&t=1713517771');">
     <view class="nameContainer">
       <view class="inputTitle" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cuname.webp?sign=6c653920e4a7579fd35d65667c816ea4&t=1713518096');"></view>
-      <input type="text" class="nameInput"/>
+      <input bindinput="setInputValue" value="{{nameT}}" data-keyname="nameT" type="text" class="nameInput" />
     </view>
     <view class="companyContainer">
       <view class="inputTitle" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cucompany.webp?sign=eb9f5c31bc5b4a54370209708c79b13d&t=1713518546');"></view>
-      <input type="text" class="companyInput"/>
+      <input bindinput="setInputValue" value="{{companyT}}" data-keyname="companyT" type="text" class="companyInput" />
     </view>
     <view class="numContainer">
       <view class="inputTitle" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cunum.webp?sign=a4141fa4e293c2a91f2e8b3aedc6df17&t=1713518681');"></view>
-      <input type="number" class="numInput"/>
+      <input bindinput="setInputValue" value="{{numT}}" maxlength="11" data-keyname="numT" type="number" class="numInput" />
     </view>
-    <view class="cuBtn" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cutjbtn.webp?sign=e1f0d4fc38163dc3c505be8011a2acff&t=1713518755');"></view>
+    <view class="cuBtn" bindtap='updateInfo' style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cutjbtn.webp?sign=e1f0d4fc38163dc3c505be8011a2acff&t=1713518755');"></view>
 
   </view>
 </view>
