@@ -11,9 +11,9 @@
   </view>
   <view class="videoTitle" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E4%BC%81%E4%B8%9A%E5%AE%A3%E4%BC%A0%E7%89%87%20%E6%8B%B7%E8%B4%9D.webp?sign=5d100d055f084a3c1565d9b2188c34ee&t=1713255884');"></view>
   <view class="mp4Container">
-    <channel-video class="mp4" binderror="xx" feed-token="{{feedId}}" finder-user-name="{{finderUserName}}"/>
+    <channel-video class="mp4" binderror="xx" finder-user-name="sphpnCphXwj3q7h" feed-token="token/A7CDSQAzV" />
   </view>
-  <view class="homeBottom" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E4%BC%81%E4%B8%9A%E6%96%87%E5%8C%96.webp?sign=962727ad12ef7c628eff7fc903e55f12&t=1713255605');">
+  <view class="homeBottom" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/homebottomendendh.webp?sign=da24960ab1a79dd2e09c79b0ace5a6ae&t=1714299410');">
     <swiper class="swiperContainerBottom" autoplay="{{true}}" indicator-dots='{{false}}'>
     <swiper-item wx:for="{{swiperItem2}}" wx:for-item="swiperitem" wx:for-index="swiperindex" wx:key="swiperindex">
       <image class="swiperitem2" src="{{swiperitem.src}}" mode=""/>

@@ -63,12 +63,12 @@
 .mp4Container {
   position: relative;
   width: 750rpx;
-  height: 300rpx;
+  height: 422rpx;
 }
 .mp4 {
   position: absolute;
   top: 0;
   left: 0;
   width: 750rpx;
-  height: 300rpx;
+  height: 422rpx;
 }

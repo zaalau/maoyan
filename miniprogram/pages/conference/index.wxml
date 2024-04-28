@@ -39,6 +39,7 @@
 
   <view class="contactBc" hidden="{{ifSetInfo==='true'}}"></view>
   <view class="contactUs" hidden="{{ifSetInfo==='true'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cubg.webp?sign=bcc4c870273e95192fcc981d32326f1a&t=1713517771');">
+    <view class="contactUsTitle">合作请填写</view>
     <view class="nameContainer">
       <view class="inputTitle" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cuname.webp?sign=6c653920e4a7579fd35d65667c816ea4&t=1713518096');"></view>
       <input bindinput="setInputValue" value="{{nameT}}" data-keyname="nameT" type="text" class="nameInput"/>

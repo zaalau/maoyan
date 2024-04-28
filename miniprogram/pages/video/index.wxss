@@ -96,9 +96,23 @@
   height: 25rpx;
   margin-bottom: 10rpx;
 }
+.smallTitle04 {
+  background-size: 100% 100%;
+  margin-top: 30rpx;
+  width: 284rpx;
+  height: 25rpx;
+  margin-bottom: 10rpx;
+}
 .smallTitle10{
   background-size: 100% 100%;
   width: 90rpx;
+  height: 24rpx;
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+}
+.smallTitle11{
+  background-size: 100% 100%;
+  width: 154rpx;
   height: 24rpx;
   margin-top: 30rpx;
   margin-bottom: 10rpx;
@@ -278,14 +292,14 @@
 }
 .contactBc {
   width: 750rpx;
-  height: 465rpx;
+  height: 505rpx;
   background-color: #434658;
 
 }
 .contactUs {
   background-size: 100% 100%;
   width: 750rpx;
-  height: 505rpx;
+  height: 545rpx;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -293,7 +307,8 @@
 }
 .nameContainer {
   width: 600rpx;
-  margin: 140rpx auto 0;
+  /* margin: 140rpx auto 0; */
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -366,4 +381,11 @@
   margin: 40rpx auto 0;
   z-index: 1000;
 
+}
+.contactUsTitle {
+  margin: 120rpx 0rpx 40rpx 75rpx;
+  font-size: 25rpx;
+  color: #434658;
+  font-weight: bold;
+  text-align: left;
 }
