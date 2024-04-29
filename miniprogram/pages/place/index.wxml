@@ -1,6 +1,9 @@
 <!--pages/place/index.wxml-->
 <view class="placeContainer" style="min-height: {{placeHeight}}px;">
   <view class="placeTop" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/hezuochangditop.webp?sign=11d48f8d0c31866178aa7669555cbd42&t=1701677503');">
+    <view class="{{whosbeenchoosed==='lipin'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='lipin'>礼品定制
+      <view class="chooseline" wx:if="{{whosbeenchoosed==='lipin'}}"></view>
+    </view>
     <view class="{{whosbeenchoosed==='kaiyuan'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='kaiyuan'>杭州开元名都
       <view class="chooseline" wx:if="{{whosbeenchoosed==='kaiyuan'}}"></view>
     </view>
@@ -15,9 +18,7 @@
       <view class="aotiitem">杭州网球中心</view>
       <view class="chooseline2" wx:if="{{whosbeenchoosed==='aoti'}}"></view>
     </view>
-    <view class="{{whosbeenchoosed==='lipin'? 'choosedBtn' : 'unchooseBtn'}}" bindtap='switchPage' data-pagename='lipin'>礼品定制
-      <view class="chooseline" wx:if="{{whosbeenchoosed==='lipin'}}"></view>
-    </view>
+    
   </view>
   <view class="changdibottom changdibottom{{index}}" wx:for="{{changdiData}}" wx:for-item="item" wx:for-index="index" wx:key="index" wx:if="{{whosbeenchoosed===item.pagename}}" style="background-image: url({{item.bgsrc}});">
     <view wx:if="{{item.pagename!='lipin'}}">

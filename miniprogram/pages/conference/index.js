@@ -74,6 +74,15 @@ Page({
         sec2: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/huizhansec2-3.webp?sign=3076fe8d262e7b9e391906d3ad4b28ee&t=1701796019',
         sec3: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/huizhansec3-3.webp?sign=eed1dbfa8844d4f46cc06ffc9648105e&t=1701796026',
       },
+      {
+        type: 'left',
+        bg: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E7%BE%8E%E5%A6%86%E5%BA%95%E5%9B%BE.webp?sign=0d9dfef8c7273cd2b2068e4c70fe8a4a&t=1714371607',
+        bigPic:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E7%BE%8E%E5%A6%86big.webp?sign=20d3a60db2121ae8a57d836cc5a8c313&t=1714371616',
+        fir2:"https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E7%BE%8E%E5%A6%86fir2.webp?sign=735c349f3119010340eca81f0cb8e24b&t=1714371626",
+        sec1: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E7%BE%8E%E5%A6%86sec1.webp?sign=c0eb471314ee2e299c40d84f7643257d&t=1714371635',
+        sec2: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E7%BE%8E%E5%A6%86sec2.webp?sign=1674736389a3d78ae8695953e24477d8&t=1714371644',
+        sec3: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E7%BE%8E%E5%A6%86sec3.webp?sign=5e0ee16cb18456854abc85b2ad99bcca&t=1714371655',
+      },
       
      
     ],

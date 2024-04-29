@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    whosbeenchoosed: 'kaiyuan',
+    whosbeenchoosed: 'lipin',
     changdiData:[
       
       {

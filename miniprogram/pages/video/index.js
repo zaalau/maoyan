@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    whosbeenchoosed:'huodong',
+    whosbeenchoosed:'mtv',
     huodongData:{
       bg:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/videoBg.webp?sign=adc9e3d74959d8fd282cb8fae51d3ca9&t=1701760475',
       huodongItem:[
