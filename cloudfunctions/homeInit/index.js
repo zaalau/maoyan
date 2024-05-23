@@ -37,10 +37,15 @@ exports.main = async (event, context) => {
     } else {
       user = users.data[0]
     }
+    let [ openPics ] = await Promise.all([
+      db.collection('openPic').get(),
+    ])
+    let openPic = openPics.data[0]
     return {
       success: true,
       data:{
-        user
+        user,
+        openPic
       }
     }
 

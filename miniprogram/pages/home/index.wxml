@@ -1,6 +1,6 @@
 <!--pages/home/index.wxml-->
 <view class="homeContainer" style="min-height: {{homeContainerHeight}}px;">
-  <view class="kaiping" wx:if="{{kaiping}}" bindtap="ifshowkaiping" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%BC%80%E5%B1%8F.webp?sign=ff1f7c3719f3f6e80da79b6b64963c7d&t=1714370212'); height: {{homeContainerHeight}}px;"></view>
+  <view class="kaiping" wx:if="{{kaiping}}" bindtap="ifshowkaiping" style="background-image: url({{openPic}}); height: {{homeContainerHeight}}px;"></view>
   <swiper class="swiperContainer" autoplay="{{true}}" indicator-dots='{{true}}' indicator-color="#ffffff50" indicator-active-color="#ffffff">
     <swiper-item wx:for="{{swiperItem}}" wx:for-item="swiperItem" wx:for-index="swiperIndex" wx:key="swiperIndex">
       <image class="swiperitem" src="{{swiperItem.src}}" mode=""/>

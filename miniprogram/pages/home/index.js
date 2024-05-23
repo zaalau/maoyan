@@ -122,8 +122,10 @@ Page({
       success: res => {
         console.log(res)        
         const { ifSetInfo } = res.result.data.user
+        const { openPic } = res.result.data.openPic
         this.setData({
-          ifSetInfo
+          ifSetInfo,
+          openPic
         })
 
       },
@@ -165,8 +167,10 @@ Page({
       success: res => {
         console.log(res)        
         const { ifSetInfo } = res.result.data.user
+        const { openPic } = res.result.data.openPic
         this.setData({
-          ifSetInfo
+          ifSetInfo,
+          openPic
         })
 
       },
