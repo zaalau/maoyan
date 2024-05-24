@@ -41,11 +41,25 @@ exports.main = async (event, context) => {
       db.collection('openPic').get(),
     ])
     let openPic = openPics.data[0]
+    let [ homeVideos ] = await Promise.all([
+      db.collection('homeVideo').get(),
+    ])
+    let homeVideo = homeVideos.data[0]
+    let [ swiperItem ] = await Promise.all([
+      db.collection('swiperItem').get(),
+    ])
+    let [ swiperItem2 ] = await Promise.all([
+      db.collection('swiperItem2').get(),
+    ])
+
     return {
       success: true,
       data:{
         user,
-        openPic
+        openPic,
+        homeVideo,
+        swiperItem,
+        swiperItem2
       }
     }
 

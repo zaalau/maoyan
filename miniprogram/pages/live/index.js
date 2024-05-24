@@ -51,38 +51,38 @@ Page({
         ]
       },
     ],
-    liveData:[
-    {
-      src:'https://v05.alltuu.com/r/EZfABz/',
-      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic1.webp?sign=b295c016c5a4db8e37d8785d1663167c&t=1701772055',
-      textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle1.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
-    },
-    {
-      src:'https://v05.alltuu.com/r/FZ7zia/',
-      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic2.webp?sign=5e4b8bc94b0be345f70237fa077059ab&t=1701772069',
-      textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle2.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
-    },
-    {
-      src:'https://v05.alltuu.com/r/rURBve/',
-      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic3.webp?sign=2ce2a62d1dba6d90b4d5405958ef840e&t=1701772076',
-      textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle3.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
-    },
-    {
-      src:'https://v05.alltuu.com/r/YvA3uq/',
-      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic4.webp?sign=a770a770add4bdf35ed98c4cde2b57e6&t=1701772084',
-      textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle4.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
-    },
-    {
-      src:'https://v05.alltuu.com/r/fm2qai/',
-      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic5.webp?sign=da3d970138a62381c3bc50774dcba9e7&t=1701772092',
-      textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle5.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
-    },
-    {
-      src:'https://v05.alltuu.com/r/Q7nIjm/',
-      picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic6.webp?sign=b25c1f64eab6cd6bc3cc1ef3382f1a8d&t=1701772111',
-      textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle6.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
-    },
-    ]
+    // liveData:[
+    // {
+    //   src:'https://v05.alltuu.com/r/EZfABz/',
+    //   picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic1.webp?sign=b295c016c5a4db8e37d8785d1663167c&t=1701772055',
+    //   textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle1.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
+    // },
+    // {
+    //   src:'https://v05.alltuu.com/r/FZ7zia/',
+    //   picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic2.webp?sign=5e4b8bc94b0be345f70237fa077059ab&t=1701772069',
+    //   textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle2.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
+    // },
+    // {
+    //   src:'https://v05.alltuu.com/r/rURBve/',
+    //   picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic3.webp?sign=2ce2a62d1dba6d90b4d5405958ef840e&t=1701772076',
+    //   textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle3.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
+    // },
+    // {
+    //   src:'https://v05.alltuu.com/r/YvA3uq/',
+    //   picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic4.webp?sign=a770a770add4bdf35ed98c4cde2b57e6&t=1701772084',
+    //   textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle4.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
+    // },
+    // {
+    //   src:'https://v05.alltuu.com/r/fm2qai/',
+    //   picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic5.webp?sign=da3d970138a62381c3bc50774dcba9e7&t=1701772092',
+    //   textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle5.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
+    // },
+    // {
+    //   src:'https://v05.alltuu.com/r/Q7nIjm/',
+    //   picSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livepic6.webp?sign=b25c1f64eab6cd6bc3cc1ef3382f1a8d&t=1701772111',
+    //   textSrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/livetitle6.webp?sign=9775c00201e8f57dbf4c993b44f21783&t=1701772779'
+    // },
+    // ]
   },
   toPageLive(e){
     const { src } = e.currentTarget.dataset
@@ -153,6 +153,21 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    wx.cloud.callFunction({
+      name: 'getLive',
+      success: res => {
+        console.log(res)  
+        const liveData = res.result.data.liveData.data
+        this.setData({
+          liveData
+        })
+        wx.hideLoading()
+
+      },
+      fail: (err) => {
+        console.error(err);
+      }
+    });
     wx.showLoading({
       title: '加载中',
     })
@@ -173,7 +188,6 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady() {
-    wx.hideLoading()
   },
 
   /**

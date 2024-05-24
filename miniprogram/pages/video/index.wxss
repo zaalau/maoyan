@@ -171,10 +171,13 @@
   box-sizing: border-box;
 }
 .xuanchuanTitle0 {
-  background-size: 100% 100%;
-  width: 436rpx;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: auto; */
+  /* width: 436rpx;  */
+  /* width: fit-content; */
   height: 55rpx;
-
   margin: 0 auto 30rpx;
   text-align: center;
   box-sizing: border-box;

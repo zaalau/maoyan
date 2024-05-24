@@ -156,10 +156,13 @@ Page({
         console.log(res)  
         const huiwuData = res.result.data.huiwuData.data
         const huizhanData = res.result.data.huizhanData.data
+        const huizhanOtherPic = res.result.data.huizhanOtherPic.data[0]
+
 
         this.setData({
           huiwuData,
-          huizhanData
+          huizhanData,
+          huizhanOtherPic
         })
         wx.hideLoading()
 

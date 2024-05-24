@@ -6,32 +6,32 @@ Page({
    */
   data: {
     kaiping: true,
-    swiperItem: [{
-        src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper1.jpg?sign=f50f4ca127b53a3a69989e17ed0d8c50&t=1701531067s',
-      },
-      {
-        src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper5.jpg?sign=df993aee3849c5b4509446e28bfc1316&t=1701438081',
-      },
-      {
-        src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper7.jpg?sign=016bce19375051fb2d4fecf95e4f1e0a&t=1701528191',
-      },
-      {
-        src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper2.jpg?sign=e6b8b5f28b821a767e224c6a03d8050e&t=1701437435',
-      },
-      {
-        src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper3.jpg?sign=620d52023083cfefa29062515906be9d&t=1701437482',
-      },
-      {
-        src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper4.jpg?sign=762e19c5dae844644515b5ce6f22cf12&t=1701437518',
-      },
+    // swiperItem: [{
+    //     src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper1.jpg?sign=f50f4ca127b53a3a69989e17ed0d8c50&t=1701531067s',
+    //   },
+    //   {
+    //     src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper5.jpg?sign=df993aee3849c5b4509446e28bfc1316&t=1701438081',
+    //   },
+    //   {
+    //     src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper7.jpg?sign=016bce19375051fb2d4fecf95e4f1e0a&t=1701528191',
+    //   },
+    //   {
+    //     src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper2.jpg?sign=e6b8b5f28b821a767e224c6a03d8050e&t=1701437435',
+    //   },
+    //   {
+    //     src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper3.jpg?sign=620d52023083cfefa29062515906be9d&t=1701437482',
+    //   },
+    //   {
+    //     src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper4.jpg?sign=762e19c5dae844644515b5ce6f22cf12&t=1701437518',
+    //   },
 
 
-      {
-        src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper6.jpg?sign=f140a45040fa03aa37bdde637c50e991&t=1701437634',
-      },
+    //   {
+    //     src: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/swiper6.jpg?sign=f140a45040fa03aa37bdde637c50e991&t=1701437634',
+    //   },
 
 
-    ],
+    // ],
     navigateBtn: [{
         areaName: '活动策划执行',
         picSrc: 'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/huodongcehuaBtn.jpg?sign=931b123367f2572e92fa1961fc545a7e&t=1701429958',
@@ -65,27 +65,27 @@ Page({
       },
 
     ],
-    swiperItem2: [{
-        src: "https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII1.webp?sign=5a4fd85fca2f9fc2f56ec18c8f8eb56c&t=1702455429"
-      },
-      {
-        src: "https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII2.webp?sign=ba8c00dff1f87a9745fd0ccf3ea59bed&t=1702455436"
-      },
-      {
-        src: "https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII3.webp?sign=1a61223c80eeb298aa5b3e2869f2fa60&t=1702455441"
-      },
-      {
-        src: "https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII4.webp?sign=84e7656c5381deea50a1b5f04ad04ccc&t=1702455447"
-      },
-      {
-        src: "https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII5.webp?sign=a673d9cfff476d4265603717cf8b2152&t=1702455454"
-      },
-      {
-        src: "https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swipierabus.webp?sign=15fff160bb1c010e7dfa6419d587cd0e&t=1713258579"
-      },
-    ],
-    finderUserName: 'sphpnCphXwj3q7h',
-    feedId: 'token/A2Kq3p0nj'
+    // swiperItem2: [{
+    //     src: "https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII1.webp?sign=5a4fd85fca2f9fc2f56ec18c8f8eb56c&t=1702455429"
+    //   },
+    //   {
+    //     src: "https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII2.webp?sign=ba8c00dff1f87a9745fd0ccf3ea59bed&t=1702455436"
+    //   },
+    //   {
+    //     src: "https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII3.webp?sign=1a61223c80eeb298aa5b3e2869f2fa60&t=1702455441"
+    //   },
+    //   {
+    //     src: "https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII4.webp?sign=84e7656c5381deea50a1b5f04ad04ccc&t=1702455447"
+    //   },
+    //   {
+    //     src: "https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swiperII5.webp?sign=a673d9cfff476d4265603717cf8b2152&t=1702455454"
+    //   },
+    //   {
+    //     src: "https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/swipierabus.webp?sign=15fff160bb1c010e7dfa6419d587cd0e&t=1713258579"
+    //   },
+    // ],
+    // finderUserName: 'sphpnCphXwj3q7h',
+    // feedId: 'token/A2Kq3p0nj'
 
   },
   xx(e) {
@@ -123,9 +123,17 @@ Page({
         console.log(res)        
         const { ifSetInfo } = res.result.data.user
         const { openPic } = res.result.data.openPic
+        const { finderUserName, feedId } = res.result.data.homeVideo
+        const swiperItem = res.result.data.swiperItem.data
+        const swiperItem2 = res.result.data.swiperItem2.data
+
         this.setData({
           ifSetInfo,
-          openPic
+          openPic,
+          finderUserName,
+          feedId,
+          swiperItem,
+          swiperItem2
         })
 
       },
@@ -168,9 +176,17 @@ Page({
         console.log(res)        
         const { ifSetInfo } = res.result.data.user
         const { openPic } = res.result.data.openPic
+        const { finderUserName, feedId } = res.result.data.homeVideo
+        const swiperItem = res.result.data.swiperItem.data
+        const swiperItem2 = res.result.data.swiperItem2.data
+
         this.setData({
           ifSetInfo,
-          openPic
+          openPic,
+          finderUserName,
+          feedId,
+          swiperItem,
+          swiperItem2
         })
 
       },
