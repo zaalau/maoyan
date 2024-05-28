@@ -35,7 +35,7 @@
   </view>
   <view class="xuanchuanContainer" wx:if="{{whosbeenchoosed==='xuanchuan'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/videoBg.webp?sign=adc9e3d74959d8fd282cb8fae51d3ca9&t=1701760475');">
     <view class="xuanchuanItem" wx:for="{{xuanchuanData}}" wx:for-item="xuanchuanitem" wx:for-index="xuanchuanindex" wx:key="xuanchuanindex" >
-      <view class="xuanchuanTitle{{xuanchuanindex}}" style="background-image: url({{xuanchuanitem.bigTitle}});" wx:if="{{xuanchuanitem.bigTitle}}"></view>
+      <view class="xuanchuanTitle" style="background-image: url({{xuanchuanitem.bigTitle}});" wx:if="{{xuanchuanitem.bigTitle}}"></view>
       <view class="videoItem">
         <view class="xuanchuansmallTitle" style="background-image: url({{xuanchuanitem.title}});"></view>
         <channel-video class="mp4" feed-token="{{xuanchuanitem.feedId}}" finder-user-name="{{xuanchuanitem.finderUserName}}"/>
