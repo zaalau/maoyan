@@ -16,38 +16,38 @@
     </view>
   </view>
   <view class="huodongContainer" wx:if="{{whosbeenchoosed==='huodong'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/videoBg.webp?sign=adc9e3d74959d8fd282cb8fae51d3ca9&t=1701760475');">
-    <view class="huodongItem" wx:for="{{huodongData.huodongItem}}" wx:for-item="item" wx:for-index="index" wx:key="index" >
-      <view class="huodongTitle" style="background-image: url({{item.title}});"></view>
-      <view class="videoItem" wx:for="{{item.mp4item}}" wx:for-item="mp4Item" wx:for-index="mp4Index" wx:key="mp4Index">
-        <view class="smallTitle{{index}}{{mp4Index}}" style="background-image: url({{mp4Item.title}});"></view>
-        <channel-video class="mp4" binderror="xx" feed-token="{{mp4Item.feedId}}" finder-user-name="{{mp4Item.finderUserName}}"/>
+    <view class="huodongItem" wx:for="{{huodongData}}" wx:for-item="item" wx:for-index="index" wx:key="index" >
+      <view class="huodongTitle" style="background-image: url({{item.bigTitle}}); " wx:if="{{item.bigTitle}}"></view>
+      <view class="videoItem">
+        <view class="smallTitle" style="background-image: url({{item.title}});"></view>
+        <channel-video class="mp4" binderror="xx" feed-token="{{item.feedId}}" finder-user-name="{{item.finderUserName}}"/>
       </view>
     </view>
   </view>
   <view class="mtvContainer" wx:if="{{whosbeenchoosed==='mtv'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/videoBg.webp?sign=adc9e3d74959d8fd282cb8fae51d3ca9&t=1701760475');">
-    <view class="mtvItem" wx:for="{{mtvData.mtvItem}}" wx:for-item="mtvitem" wx:for-index="mtvindex" wx:key="mtvindex" >
-      <view class="mtvTitle" style="background-image: url({{mtvitem.title}});"></view>
-      <view class="videoItem" wx:for="{{mtvitem.mp4item}}" wx:for-item="mtvmp4Item" wx:for-index="mtvmp4Index" wx:key="mtvmp4Index">
-        <view class="mtvsmallTitle{{mtvindex}}{{mtvmp4Index}}" style="background-image: url({{mtvmp4Item.title}});"></view>
-        <channel-video class="mp4" feed-token="{{mtvmp4Item.feedId}}" finder-user-name="{{mtvmp4Item.finderUserName}}"/>
+    <view class="mtvItem" wx:for="{{mtvData}}" wx:for-item="mtvitem" wx:for-index="mtvindex" wx:key="mtvindex" >
+      <view class="mtvTitle" style="background-image: url({{mtvitem.bigTitle}});" wx:if="{{mtvitem.bigTitle}}"></view>
+      <view class="videoItem" >
+        <view class="mtvsmallTitle" style="background-image: url({{mtvitem.title}});"></view>
+        <channel-video class="mp4" feed-token="{{mtvitem.feedId}}" finder-user-name="{{mtvitem.finderUserName}}"/>
       </view>
     </view>
   </view>
   <view class="xuanchuanContainer" wx:if="{{whosbeenchoosed==='xuanchuan'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/videoBg.webp?sign=adc9e3d74959d8fd282cb8fae51d3ca9&t=1701760475');">
-    <view class="xuanchuanItem" wx:for="{{xuanchuanData.xuanchuanItem}}" wx:for-item="xuanchuanitem" wx:for-index="xuanchuanindex" wx:key="xuanchuanindex" >
-      <view class="xuanchuanTitle{{xuanchuanindex}}" style="background-image: url({{xuanchuanitem.title}});"></view>
-      <view class="videoItem" wx:for="{{xuanchuanitem.mp4item}}" wx:for-item="xuanchuanmp4Item" wx:for-index="xuanchuanmp4Index" wx:key="xuanchuanmp4Index">
-        <view class="xuanchuansmallTitle{{xuanchuanindex}}{{xuanchuanmp4Index}}" style="background-image: url({{xuanchuanmp4Item.title}});"></view>
-        <channel-video class="mp4" feed-token="{{xuanchuanmp4Item.feedId}}" finder-user-name="{{xuanchuanmp4Item.finderUserName}}"/>
+    <view class="xuanchuanItem" wx:for="{{xuanchuanData}}" wx:for-item="xuanchuanitem" wx:for-index="xuanchuanindex" wx:key="xuanchuanindex" >
+      <view class="xuanchuanTitle{{xuanchuanindex}}" style="background-image: url({{xuanchuanitem.bigTitle}});" wx:if="{{xuanchuanitem.bigTitle}}"></view>
+      <view class="videoItem">
+        <view class="xuanchuansmallTitle" style="background-image: url({{xuanchuanitem.title}});"></view>
+        <channel-video class="mp4" feed-token="{{xuanchuanitem.feedId}}" finder-user-name="{{xuanchuanitem.finderUserName}}"/>
       </view>
     </view>
   </view>
   <view class="huodongContainer" wx:if="{{whosbeenchoosed==='duanshipin'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/videoBg.webp?sign=adc9e3d74959d8fd282cb8fae51d3ca9&t=1701760475');">
-    <view class="huodongItem" wx:for="{{duanshipinData.duanshipinItem}}" wx:for-item="dspitem" wx:for-index="dspindex" wx:key="dspindex" >
-      <view class="huodongTitle" style="background-image: url({{dspitem.title}});"></view>
-      <view class="videoItem" wx:for="{{dspitem.mp4item}}" wx:for-item="dspmp4Item" wx:for-index="dspmp4Index" wx:key="dspmp4Index">
-        <view class="dspsmallTitle{{dspindex}}{{dspmp4Index}}" style="background-image: url({{dspmp4Item.title}});"></view>
-        <channel-video class="mp4" binderror="xx" feed-token="{{dspmp4Item.feedId}}" finder-user-name="{{dspmp4Item.finderUserName}}"/>
+    <view class="huodongItem" wx:for="{{duanshipinData}}" wx:for-item="dspitem" wx:for-index="dspindex" wx:key="dspindex" >
+      <view class="huodongTitle" style="background-image: url({{dspitem.bigTitle}});" wx:if="{{dspitem.bigTitle}}"></view>
+      <view class="videoItem">
+        <view class="dspsmallTitle" style="background-image: url({{dspitem.title}});"></view>
+        <channel-video class="mp4" binderror="xx" feed-token="{{dspitem.feedId}}" finder-user-name="{{dspitem.finderUserName}}"/>
       </view>
     </view>
   </view>

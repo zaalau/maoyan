@@ -68,6 +68,13 @@
   text-align: center;
   box-sizing: border-box;
 }
+.smallTitle {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 30rpx;
+  margin-bottom: 10rpx;
+}
 .smallTitle00 {
   background-size: 100% 100%;
   width: 90rpx;
@@ -143,6 +150,13 @@
   text-align: center;
   box-sizing: border-box;
 }
+.mtvsmallTitle {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 30rpx;
+  margin-bottom: 10rpx;
+}
 .mtvsmallTitle00 {
   background-size: 100% 100%;
   width: 159rpx;
@@ -215,6 +229,14 @@
   text-align: center;
   box-sizing: border-box;
 }
+.xuanchuansmallTitle {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 30rpx;
+  margin-bottom: 10rpx;
+
+}
 .xuanchuansmallTitle00 {
   background-size: 100% 100%;
   width: 136rpx;
@@ -270,6 +292,13 @@
   margin-bottom: 10rpx;
 
 }
+.dspsmallTitle {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 30rpx;
+  margin: 10rpx 0;
+}
 .dspsmallTitle00 {
   background-size: 100% 100%;
   width: 304rpx;
@@ -278,6 +307,7 @@
 
 
 }
+
 .dspsmallTitle01 {
   background-size: 100% 100%;
   width: 181rpx;
