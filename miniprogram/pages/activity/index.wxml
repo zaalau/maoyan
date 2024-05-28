@@ -17,7 +17,7 @@
   <view class="fabuhuiContainer" wx:if="{{whosbeenchoosed==='fabuhui'}}">
     <view class="topVideo" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/topvFBH.webp?sign=d729e3be8760972ced0292be26b0a997&t=1713605939');">
       <view class="mp4Container">
-        <channel-video class="mp4" binderror="xx" feed-token="token/AQ6u4C8zJ" finder-user-name="sphpnCphXwj3q7h" />
+        <channel-video class="mp4" binderror="xx" feed-token="{{fabuhuiV.feedId}}" finder-user-name="{{fabuhuiV.finderUserName}}" />
       </view>
     </view>
     <view wx:for="{{fabuhuiData}}" wx:for-item="item" wx:for-index="index" wx:key="index">
@@ -33,7 +33,7 @@
   <view class="kaiyeContainer" wx:if="{{whosbeenchoosed==='kaiye'}}">
     <view class="topVideo" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/topvKYQD.webp?sign=384b20af18493d6394f3420a918e5e00&t=1713606287');">
       <view class="mp4Container">
-        <channel-video class="mp4" binderror="xx" feed-token="token/AXZHG9CAm" finder-user-name="sphpnCphXwj3q7h" />
+        <channel-video class="mp4" binderror="xx" feed-token="{{kaiyeV.feedId}}" finder-user-name="{{kaiyeV.finderUserName}}" />
       </view>
     </view>
     <view wx:for="{{kaiyeData}}" wx:for-item="kaiyeitem" wx:for-index="kaiyeindex" wx:key="kaiyeindex">
@@ -49,7 +49,7 @@
   <view class="wanhuiContainer" wx:if="{{whosbeenchoosed==='wanhui'}}">
     <view class="topVideo" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/topvWH.webp?sign=d414e691bacf03775dbd35c60e8a4617&t=1713606312');">
       <view class="mp4Container">
-        <channel-video class="mp4" binderror="xx" feed-token="token/APSGBZevl" finder-user-name="sphpnCphXwj3q7h" />
+        <channel-video class="mp4" binderror="xx" feed-token="{{wanhuiV.feedId}}" finder-user-name="{{wanhuiV.finderUserName}}" />
       </view>
     </view>
     <view wx:for="{{wanhuiData}}" wx:for-item="wanhuiitem" wx:for-index="wanhuiindex" wx:key="wanhuiindex">
@@ -61,14 +61,14 @@
         <view class="fabuhuisec3" bindtap='preview' data-pic-src="{{wanhuiitem.sec3}}"></view>
       </view>
     </view>
-    <view class="otherBg" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/otherBg.webp?sign=8944941ae574b943b645c47ed3c04858&t=1701792152');">
-      <view class="otherPic" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/otherPic.webp?sign=bf97215bb6baae5543fb9bacfa626718&t=1701792063');"></view>
+    <view class="otherBg" style="background-image: url({{activityOthers.otherPic}});">
+      <view class="otherPic" style="background-image: url({{activityOthers.detail}});"></view>
     </view>
   </view>
   <view class="yanlianContainer" wx:if="{{whosbeenchoosed==='yanlian'}}">
     <view class="topVideo" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/topvYL.webp?sign=38a17bf52b4eacc2f5a6361d3d4c41db&t=1713606331');">
       <view class="mp4Container">
-        <channel-video class="mp4" binderror="xx" feed-token="token/AGMMFCNTI" finder-user-name="sphpnCphXwj3q7h" />
+        <channel-video class="mp4" binderror="xx" feed-token="{{yanlianV.feedId}}" finder-user-name="{{yanlianV.finderUserName}}" />
       </view>
     </view>
     <view wx:for="{{yanlianData}}" wx:for-item="yanlianitem" wx:for-index="yanlianindex" wx:key="yanlianindex">

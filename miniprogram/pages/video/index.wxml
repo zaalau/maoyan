@@ -15,7 +15,7 @@
       <view class="chooseline" wx:if="{{whosbeenchoosed==='huodong'}}"></view>
     </view>
   </view>
-  <view class="huodongContainer" wx:if="{{whosbeenchoosed==='huodong'}}" style="background-image: url({{huodongData.bg}});">
+  <view class="huodongContainer" wx:if="{{whosbeenchoosed==='huodong'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/videoBg.webp?sign=adc9e3d74959d8fd282cb8fae51d3ca9&t=1701760475');">
     <view class="huodongItem" wx:for="{{huodongData.huodongItem}}" wx:for-item="item" wx:for-index="index" wx:key="index" >
       <view class="huodongTitle" style="background-image: url({{item.title}});"></view>
       <view class="videoItem" wx:for="{{item.mp4item}}" wx:for-item="mp4Item" wx:for-index="mp4Index" wx:key="mp4Index">
@@ -24,7 +24,7 @@
       </view>
     </view>
   </view>
-  <view class="mtvContainer" wx:if="{{whosbeenchoosed==='mtv'}}" style="background-image: url({{mtvData.bg}});">
+  <view class="mtvContainer" wx:if="{{whosbeenchoosed==='mtv'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/videoBg.webp?sign=adc9e3d74959d8fd282cb8fae51d3ca9&t=1701760475');">
     <view class="mtvItem" wx:for="{{mtvData.mtvItem}}" wx:for-item="mtvitem" wx:for-index="mtvindex" wx:key="mtvindex" >
       <view class="mtvTitle" style="background-image: url({{mtvitem.title}});"></view>
       <view class="videoItem" wx:for="{{mtvitem.mp4item}}" wx:for-item="mtvmp4Item" wx:for-index="mtvmp4Index" wx:key="mtvmp4Index">
@@ -33,7 +33,7 @@
       </view>
     </view>
   </view>
-  <view class="xuanchuanContainer" wx:if="{{whosbeenchoosed==='xuanchuan'}}" style="background-image: url({{xuanchuanData.bg}});">
+  <view class="xuanchuanContainer" wx:if="{{whosbeenchoosed==='xuanchuan'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/videoBg.webp?sign=adc9e3d74959d8fd282cb8fae51d3ca9&t=1701760475');">
     <view class="xuanchuanItem" wx:for="{{xuanchuanData.xuanchuanItem}}" wx:for-item="xuanchuanitem" wx:for-index="xuanchuanindex" wx:key="xuanchuanindex" >
       <view class="xuanchuanTitle{{xuanchuanindex}}" style="background-image: url({{xuanchuanitem.title}});"></view>
       <view class="videoItem" wx:for="{{xuanchuanitem.mp4item}}" wx:for-item="xuanchuanmp4Item" wx:for-index="xuanchuanmp4Index" wx:key="xuanchuanmp4Index">
@@ -42,7 +42,7 @@
       </view>
     </view>
   </view>
-  <view class="huodongContainer" wx:if="{{whosbeenchoosed==='duanshipin'}}" style="background-image: url({{duanshipinData.bg}});">
+  <view class="huodongContainer" wx:if="{{whosbeenchoosed==='duanshipin'}}" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/videoBg.webp?sign=adc9e3d74959d8fd282cb8fae51d3ca9&t=1701760475');">
     <view class="huodongItem" wx:for="{{duanshipinData.duanshipinItem}}" wx:for-item="dspitem" wx:for-index="dspindex" wx:key="dspindex" >
       <view class="huodongTitle" style="background-image: url({{dspitem.title}});"></view>
       <view class="videoItem" wx:for="{{dspitem.mp4item}}" wx:for-item="dspmp4Item" wx:for-index="dspmp4Index" wx:key="dspmp4Index">
