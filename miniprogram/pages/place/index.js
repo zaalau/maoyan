@@ -34,6 +34,46 @@ Page({
       },
       {
         pagename:'lipin',
+        lipinData:[
+          {
+            swiperItem:[
+              {
+                src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%90%88%E4%BD%9C%E5%9C%BA%E5%9C%B0%E6%96%B0-13%20%E6%8B%B7%E8%B4%9D.webp?sign=11d892bec71844dd6328823fb277f777&t=1723701613',
+              },
+              {
+                src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%90%88%E4%BD%9C%E5%9C%BA%E5%9C%B0%E6%96%B0-14%20%E6%8B%B7%E8%B4%9D.webp?sign=d0d3edd3d2d7918d68883926ec6f8b93&t=1723701630',
+              },
+              {
+                src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%90%88%E4%BD%9C%E5%9C%BA%E5%9C%B0%E6%96%B0-15%20%E6%8B%B7%E8%B4%9D.webp?sign=79726daaa237d0b06b91e85ce36bd42a&t=1723701640',
+              },
+              {
+                src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lipinswiper4.webp?sign=215d42ce5a4c3f55f1ec3d770f2341f9&t=1702958784',
+              },
+            ],
+            textsrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%90%88%E4%BD%9C%E5%9C%BA%E5%9C%B0%E6%96%B0-12%20%E6%8B%B7%E8%B4%9D.webp?sign=becc72e2f4f3b4395dabdd53dea45578&t=1723701525',
+            picsrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/%E5%90%88%E4%BD%9C%E5%9C%BA%E5%9C%B0%E6%96%B0-16%20%E6%8B%B7%E8%B4%9D.webp?sign=a4d422228f6282222b0b9449094ebba0&t=1723701601',
+            bgsrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lipinbg.webp?sign=d8d5cfe33955c02697c2180609b481a1&t=1702958977'
+          },
+          {
+            swiperItem:[
+              {
+                src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lipinswiper1.webp?sign=215d42ce5a4c3f55f1ec3d770f2341f9&t=1702958784',
+              },
+              {
+                src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lipinswiper2.webp?sign=215d42ce5a4c3f55f1ec3d770f2341f9&t=1702958784',
+              },
+              {
+                src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lipinswiper3.webp?sign=215d42ce5a4c3f55f1ec3d770f2341f9&t=1702958784',
+              },
+              {
+                src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lipinswiper4.webp?sign=215d42ce5a4c3f55f1ec3d770f2341f9&t=1702958784',
+              },
+            ],
+            textsrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lipintext.webp?sign=0796793bbb2308595381e1a3e36a8e77&t=1702531655',
+            picsrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lipinbottompic.webp?sign=0f5b906cd7c28cf12c14724838a63db0&t=1702955628',
+            bgsrc:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lipinbg.webp?sign=d8d5cfe33955c02697c2180609b481a1&t=1702958977'
+          }
+        ],
         swiperItem:[
           {
             src:'https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/lipinswiper1.webp?sign=215d42ce5a4c3f55f1ec3d770f2341f9&t=1702958784',

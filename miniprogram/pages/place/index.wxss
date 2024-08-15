@@ -90,7 +90,8 @@
 .changdibottom4 {
   background-size: 100% 100%;
   width: 750rpx;
-  height: 2150rpx;
+  /* height: 2150rpx; */
+  height: auto;
   padding: 40rpx 50rpx;
   box-sizing: border-box;
 }
@@ -109,6 +110,11 @@
   background-size: 100% 100%;
   width: 650rpx;
   height: 1500rpx;
+}
+.picContainer20 {
+  background-size: 100% 100%;
+  width: 650rpx;
+  height: 1295rpx;
 }
 .swiperContainer {
   width: 650rpx;
@@ -218,4 +224,7 @@
   color: #434658;
   font-weight: bold;
   text-align: left;
+}
+.lipinData {
+  margin-bottom: 65rpx;
 }

@@ -18,7 +18,7 @@
       <view class="aotiitem">杭州网球中心</view>
       <view class="chooseline2" wx:if="{{whosbeenchoosed==='aoti'}}"></view>
     </view>
-    
+
   </view>
   <view class="changdibottom changdibottom{{index}}" wx:for="{{changdiData}}" wx:for-item="item" wx:for-index="index" wx:key="index" wx:if="{{whosbeenchoosed===item.pagename}}" style="background-image: url({{item.bgsrc}});">
     <view wx:if="{{item.pagename!='lipin'}}">
@@ -26,13 +26,17 @@
       <view class="picContainer" bindtap='preview' data-pic-src="{{item.picsrc}}" style="background-image: url({{item.picsrc}});"></view>
     </view>
     <view wx:if="{{item.pagename==='lipin'}}">
-      <view class="textContainer" style="background-image: url({{item.textsrc}});"></view>
-      <swiper class="swiperContainer" autoplay="{{true}}" indicator-dots='{{false}}'>
-        <swiper-item wx:for="{{item.swiperItem}}" wx:for-item="swiperItem" wx:for-index="swiperIndex" wx:key="swiperIndex">
-          <image class="swiperitem" src="{{swiperItem.src}}" mode="" />
-        </swiper-item>
-      </swiper>
-      <view class="picContainer2" bindtap='preview' data-pic-src="{{item.picsrc}}" style="background-image: url({{item.picsrc}});"></view>
+      <view class="lipinData" wx:for="{{item.lipinData}}" wx:for-item="lipinItem" wx:for-index="lipinIndex" wx:key="index">
+        <view class="textContainer" style="background-image: url({{lipinItem.textsrc}});"></view>
+        <swiper class="swiperContainer" autoplay="{{true}}" indicator-dots='{{false}}'>
+          <swiper-item wx:for="{{lipinItem.swiperItem}}" wx:for-item="swiperItem" wx:for-index="swiperIndex" wx:key="swiperIndex">
+            <image class="swiperitem" src="{{swiperItem.src}}" mode="" />
+          </swiper-item>
+        </swiper>
+        <view class="picContainer2 picContainer2{{lipinIndex}}" bindtap='preview' data-pic-src="{{lipinItem.picsrc}}" style="background-image: url({{lipinItem.picsrc}});"></view>
+
+      </view>
+
     </view>
 
 
@@ -43,15 +47,15 @@
     <view class="contactUsTitle">合作请填写</view>
     <view class="nameContainer">
       <view class="inputTitle" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cuname.webp?sign=6c653920e4a7579fd35d65667c816ea4&t=1713518096');"></view>
-      <input bindinput="setInputValue" value="{{nameT}}" data-keyname="nameT" type="text" class="nameInput"/>
+      <input bindinput="setInputValue" value="{{nameT}}" data-keyname="nameT" type="text" class="nameInput" />
     </view>
     <view class="companyContainer">
       <view class="inputTitle" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cucompany.webp?sign=eb9f5c31bc5b4a54370209708c79b13d&t=1713518546');"></view>
-      <input bindinput="setInputValue" value="{{companyT}}" data-keyname="companyT" type="text" class="companyInput"/>
+      <input bindinput="setInputValue" value="{{companyT}}" data-keyname="companyT" type="text" class="companyInput" />
     </view>
     <view class="numContainer">
       <view class="inputTitle" style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cunum.webp?sign=a4141fa4e293c2a91f2e8b3aedc6df17&t=1713518681');"></view>
-      <input bindinput="setInputValue" value="{{numT}}" maxlength="11" data-keyname="numT" type="number" class="numInput"/>
+      <input bindinput="setInputValue" value="{{numT}}" maxlength="11" data-keyname="numT" type="number" class="numInput" />
     </view>
     <view class="cuBtn" bindtap='updateInfo' style="background-image: url('https://636c-cloud1-2g8e8bgqa13910e9-1321771972.tcb.qcloud.la/%E5%B7%B2%E5%8E%8B%E7%BC%A9/cutjbtn.webp?sign=e1f0d4fc38163dc3c505be8011a2acff&t=1713518755');"></view>
 
